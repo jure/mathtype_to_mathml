@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<math display="block">
+  <mrow>
+    <msup>
+      <mi>a</mi>
+      <mo>&#x2032;</mo>
+    </msup>
+    <msup>
+      <mi>b</mi>
+      <mo>&#x2033;</mo>
+    </msup>
+    <msup>
+      <mi>c</mi>
+      <mo>&#x2034;</mo>
+    </msup>
+    <mmultiscripts>
+      <mi>d</mi>
+      <mprescripts/>
+      <none/>
+      <mo>&#x2035;</mo>
+    </mmultiscripts>
+    <menclose notation="updiagonalstrike">
+      <mi>e</mi>
+    </menclose>
+    <menclose notation="horizontalstrike">
+      <mi>f</mi>
+    </menclose>
+    <menclose notation="updiagonalstrike downdiagonalstrike">
+      <mi>g</mi>
+    </menclose>
+    <menclose notation="updiagonalstrike">
+      <mi>h</mi>
+    </menclose>
+    <menclose notation="downdiagonalstrike">
+      <mi>i</mi>
+    </menclose>
+    <mo>&#x2212;</mo>
+    <mover accent="true">
+      <mi>j</mi>
+      <mo>&#x2D9;</mo>
+    </mover>
+    <mo>&#x2212;</mo>
+    <mover accent="true">
+      <mi>k</mi>
+      <mo>&#xA8;</mo>
+    </mover>
+    <mo>&#x2212;</mo>
+    <mover accent="true">
+      <mi>l</mi>
+      <mo>&#x20DB;</mo>
+    </mover>
+    <mo>&#x2212;</mo>
+    <mover accent="true">
+      <mi>m</mi>
+      <mo>&#x20DC;</mo>
+    </mover>
+    <mo>&#x2212;</mo>
+    <munder>
+      <mi>n</mi>
+      <mo>&#x2D9;</mo>
+    </munder>
+    <mo>&#x2212;</mo>
+    <munder>
+      <mi>o</mi>
+      <mo>&#xA8;</mo>
+    </munder>
+    <mo>&#x2212;</mo>
+    <munder>
+      <mi>p</mi>
+      <mo>&#x20DB;</mo>
+    </munder>
+    <mo>&#x2212;</mo>
+    <mover accent="true">
+      <mi>q</mi>
+      <mo>&#x2322;</mo>
+    </mover>
+    <mo>&#x2212;</mo>
+    <munder>
+      <mi>r</mi>
+      <mo>&#x20DC;</mo>
+    </munder>
+    <mo>&#x2212;</mo>
+    <mover accent="true">
+      <mi>s</mi>
+      <mo>&#xAF;</mo>
+    </mover>
+    <mo>&#x2212;</mo>
+    <mover accent="true">
+      <mi>t</mi>
+      <mo>&#x2DC;</mo>
+    </mover>
+    <mo>&#x2212;</mo>
+    <mover accent="true">
+      <mi>u</mi>
+      <mo>&#x2323;</mo>
+    </mover>
+    <mo>&#x2212;</mo>
+    <mover accent="true">
+      <mi>v</mi>
+      <mo>^</mo>
+    </mover>
+    <mo>&#x2212;</mo>
+    <munder accentunder="true">
+      <mi>x</mi>
+      <mo>_</mo>
+    </munder>
+    <mo>&#x2212;</mo>
+    <munder accentunder="true">
+      <mi>y</mi>
+      <mo>&#x2DC;</mo>
+    </munder>
+    <mo>&#x2212;</mo>
+    <munder accentunder="true">
+      <mi>z</mi>
+      <mo>&#x2322;</mo>
+    </munder>
+    <mo>&#x2212;</mo>
+    <munder accentunder="true">
+      <mi>a</mi>
+      <mo>&#x2323;</mo>
+    </munder>
+    <mo>&#x2212;</mo>
+    <mover accent="true">
+      <mi>b</mi>
+      <mo>&#x2192;</mo>
+    </mover>
+    <mo>&#x2212;</mo>
+    <mover accent="true">
+      <mi>c</mi>
+      <mo>&#x2190;</mo>
+    </mover>
+    <mo>&#x2212;</mo>
+    <mover accent="true">
+      <mi>d</mi>
+      <mo>&#x2194;</mo>
+    </mover>
+    <mo>&#x2212;</mo>
+    <mover accent="true">
+      <mi>e</mi>
+      <mo>&#x21C0;</mo>
+    </mover>
+    <mo>&#x2212;</mo>
+    <mover accent="true">
+      <mi>f</mi>
+      <mo>&#x21BC;</mo>
+    </mover>
+    <mo>&#x2212;</mo>
+    <munder>
+      <mi>g</mi>
+      <mo>&#x2192;</mo>
+    </munder>
+    <mo>&#x2212;</mo>
+    <munder>
+      <mi>h</mi>
+      <mo>&#x2190;</mo>
+    </munder>
+    <mo>&#x2212;</mo>
+    <munder>
+      <mi>i</mi>
+      <mo>&#x2194;</mo>
+    </munder>
+    <mo>&#x2212;</mo>
+    <munder>
+      <mi>j</mi>
+      <mo>&#x21C1;</mo>
+    </munder>
+    <mo>&#x2212;</mo>
+    <munder>
+      <mi>k</mi>
+      <mo>&#x21BD;</mo>
+    </munder>
+    <mo>&#x002B;</mo>
+    <mover accent="true">
+      <mo>&#x2210;</mo>
+      <mo>&#x2322;</mo>
+    </mover>
+  </mrow>
+</math>

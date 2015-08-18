@@ -1,0 +1,389 @@
+<?xml version="1.0"?>
+<math display="block">
+  <mtable columnalign="left">
+    <mtr>
+      <mtd>
+        <mrow>
+          <mi>a</mi>
+          <mover>
+            <mo>&#x2192;</mo>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </mover>
+          <mi>c</mi>
+          <mo>&#x002B;</mo>
+          <mi>a</mi>
+          <munder>
+            <mo>&#x2192;</mo>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </munder>
+          <mi>c</mi>
+          <mo>&#x002B;</mo>
+          <mi>a</mi>
+          <munderover>
+            <mo>&#x2192;</mo>
+            <mrow>
+              <mi>c</mi>
+            </mrow>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </munderover>
+          <mi>d</mi>
+          <mo>&#x002B;</mo>
+          <mi>a</mi>
+          <mover>
+            <mo>&#x2190;</mo>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </mover>
+          <mi>c</mi>
+          <mo>&#x002B;</mo>
+          <mi>a</mi>
+          <munder>
+            <mo>&#x2190;</mo>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </munder>
+          <mi>c</mi>
+        </mrow>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow>
+          <mi>a</mi>
+          <munderover>
+            <mo>&#x2190;</mo>
+            <mrow>
+              <mi>c</mi>
+            </mrow>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </munderover>
+          <mi>d</mi>
+          <mo>&#x002B;</mo>
+          <mi>a</mi>
+          <mover>
+            <mo>&#x2194;</mo>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </mover>
+          <mi>c</mi>
+          <mo>&#x002B;</mo>
+          <mi>a</mi>
+          <munder>
+            <mo>&#x2194;</mo>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </munder>
+          <mi>c</mi>
+          <mo>&#x002B;</mo>
+          <mi>a</mi>
+          <munderover>
+            <mo>&#x2194;</mo>
+            <mrow>
+              <mi>c</mi>
+            </mrow>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </munderover>
+          <mi>d</mi>
+          <mo>&#x002B;</mo>
+          <mi>a</mi>
+          <mover>
+            <mo>&#x21C4;</mo>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </mover>
+          <mi>c</mi>
+        </mrow>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow>
+          <mi>a</mi>
+          <munder>
+            <mo>&#x21C4;</mo>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </munder>
+          <mi>c</mi>
+          <mo>&#x002B;</mo>
+          <mi>a</mi>
+          <munderover>
+            <mo>&#x21C4;</mo>
+            <mrow>
+              <mi>c</mi>
+            </mrow>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </munderover>
+          <mi>d</mi>
+          <mo>&#x002B;</mo>
+          <mi>a</mi>
+          <mover>
+            <munder accentunder="true">
+              <mstyle scriptlevel="-1">
+                <mo>&#x2192;</mo>
+              </mstyle>
+              <mstyle scriptlevel="+1">
+                <mo>&#x2190;</mo>
+              </mstyle>
+            </munder>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </mover>
+          <mi>c</mi>
+          <mo>&#x002B;</mo>
+          <mi>a</mi>
+          <munder>
+            <munder accentunder="true">
+              <mstyle scriptlevel="-1">
+                <mo>&#x2192;</mo>
+              </mstyle>
+              <mstyle scriptlevel="+1">
+                <mo>&#x2190;</mo>
+              </mstyle>
+            </munder>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </munder>
+          <mi>c</mi>
+          <mo>&#x002B;</mo>
+          <mi>a</mi>
+          <munderover accentunder="true">
+            <mstyle scriptlevel="-1">
+              <mo>&#x2192;</mo>
+            </mstyle>
+            <munder>
+              <mstyle scriptlevel="+1">
+                <mo>&#x2190;</mo>
+              </mstyle>
+              <mrow>
+                <mi>c</mi>
+              </mrow>
+            </munder>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </munderover>
+          <mi>d</mi>
+        </mrow>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow>
+          <mi>a</mi>
+          <mover>
+            <munder accentunder="true">
+              <mstyle scriptlevel="+1">
+                <mo>&#x2192;</mo>
+              </mstyle>
+              <mstyle scriptlevel="-1">
+                <mo>&#x2190;</mo>
+              </mstyle>
+            </munder>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </mover>
+          <mi>c</mi>
+          <mo>&#x002B;</mo>
+          <mi>a</mi>
+          <munder>
+            <munder accentunder="true">
+              <mstyle scriptlevel="+1">
+                <mo>&#x2192;</mo>
+              </mstyle>
+              <mstyle scriptlevel="-1">
+                <mo>&#x2190;</mo>
+              </mstyle>
+            </munder>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </munder>
+          <mi>c</mi>
+          <mo>&#x002B;</mo>
+          <mi>a</mi>
+          <munderover accentunder="true">
+            <mstyle scriptlevel="+1">
+              <mo>&#x2192;</mo>
+            </mstyle>
+            <munder>
+              <mstyle scriptlevel="-1">
+                <mo>&#x2190;</mo>
+              </mstyle>
+              <mrow>
+                <mi>c</mi>
+              </mrow>
+            </munder>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </munderover>
+          <mi>d</mi>
+          <mo>&#x002B;</mo>
+          <mi>a</mi>
+          <mover>
+            <mo>&#x21CC;</mo>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </mover>
+          <mi>c</mi>
+          <mo>&#x002B;</mo>
+          <mi>a</mi>
+          <munder>
+            <mo>&#x21CC;</mo>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </munder>
+          <mi>c</mi>
+        </mrow>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow>
+          <mi>a</mi>
+          <munderover>
+            <mo>&#x21CC;</mo>
+            <mrow>
+              <mi>c</mi>
+            </mrow>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </munderover>
+          <mi>d</mi>
+          <mo>&#x002B;</mo>
+          <mi>a</mi>
+          <mover>
+            <munder accentunder="true">
+              <mstyle scriptlevel="-1">
+                <mo>&#x21C0;</mo>
+              </mstyle>
+              <mstyle scriptlevel="+1">
+                <mo>&#x21BD;</mo>
+              </mstyle>
+            </munder>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </mover>
+          <mi>c</mi>
+          <mo>&#x002B;</mo>
+          <mi>a</mi>
+          <munder>
+            <munder accentunder="true">
+              <mstyle scriptlevel="-1">
+                <mo>&#x21C0;</mo>
+              </mstyle>
+              <mstyle scriptlevel="+1">
+                <mo>&#x21BD;</mo>
+              </mstyle>
+            </munder>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </munder>
+          <mi>c</mi>
+          <mo>&#x002B;</mo>
+          <mi>a</mi>
+          <munderover accentunder="true">
+            <mstyle scriptlevel="-1">
+              <mo>&#x21C0;</mo>
+            </mstyle>
+            <munder>
+              <mstyle scriptlevel="+1">
+                <mo>&#x21BD;</mo>
+              </mstyle>
+              <mrow>
+                <mi>c</mi>
+              </mrow>
+            </munder>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </munderover>
+          <mi>d</mi>
+          <mo>&#x002B;</mo>
+          <mi>a</mi>
+          <mover>
+            <munder accentunder="true">
+              <mstyle scriptlevel="+1">
+                <mo>&#x21C0;</mo>
+              </mstyle>
+              <mstyle scriptlevel="-1">
+                <mo>&#x21BD;</mo>
+              </mstyle>
+            </munder>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </mover>
+          <mi>c</mi>
+        </mrow>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow>
+          <mi>a</mi>
+          <munder>
+            <munder accentunder="true">
+              <mstyle scriptlevel="+1">
+                <mo>&#x21C0;</mo>
+              </mstyle>
+              <mstyle scriptlevel="-1">
+                <mo>&#x21BD;</mo>
+              </mstyle>
+            </munder>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </munder>
+          <mi>c</mi>
+          <mo>&#x002B;</mo>
+          <mi>a</mi>
+          <munderover accentunder="true">
+            <mstyle scriptlevel="+1">
+              <mo>&#x21C0;</mo>
+            </mstyle>
+            <munder>
+              <mstyle scriptlevel="-1">
+                <mo>&#x21BD;</mo>
+              </mstyle>
+              <mrow>
+                <mi>c</mi>
+              </mrow>
+            </munder>
+            <mrow>
+              <mi>b</mi>
+            </mrow>
+          </munderover>
+          <mi>d</mi>
+        </mrow>
+      </mtd>
+    </mtr>
+  </mtable>
+</math>

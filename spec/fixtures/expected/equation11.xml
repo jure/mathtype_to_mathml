@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<math display="block">
+  <mrow>
+    <msup>
+      <mrow>
+        <mn>&#x0028;</mn>
+        <mi>a</mi>
+        <mo>&#x2212;</mo>
+        <mi>b</mi>
+        <mn>&#x0029;</mn>
+      </mrow>
+      <mrow>
+        <mi>c</mi>
+      </mrow>
+    </msup>
+  </mrow>
+</math>

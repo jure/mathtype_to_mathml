@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<math display="block">
+  <mrow>
+    <mi>a</mi>
+    <mover>
+      <mo>&#x2194;</mo>
+      <mrow>
+        <mi>c</mi>
+      </mrow>
+    </mover>
+    <mi>b</mi>
+  </mrow>
+</math>

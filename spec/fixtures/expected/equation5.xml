@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<math display="block">
+  <mrow>
+    <mi>a</mi>
+    <munderover accentunder="true">
+      <mstyle scriptlevel="-1">
+        <mo>&#x21C0;</mo>
+      </mstyle>
+      <munder>
+        <mstyle scriptlevel="+1">
+          <mo>&#x21BD;</mo>
+        </mstyle>
+        <mrow>
+          <mi>b</mi>
+        </mrow>
+      </munder>
+      <mrow>
+        <mi>a</mi>
+      </mrow>
+    </munderover>
+    <mi>c</mi>
+  </mrow>
+</math>

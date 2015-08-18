@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<math display="block">
+  <mrow>
+    <mstyle displaystyle="true">
+      <munderover>
+        <mo>&#x222A;</mo>
+        <mrow>
+          <mi>b</mi>
+        </mrow>
+        <mrow>
+          <mi>a</mi>
+        </mrow>
+      </munderover>
+      <mrow>
+        <mi>c</mi>
+      </mrow>
+    </mstyle>
+  </mrow>
+</math>
