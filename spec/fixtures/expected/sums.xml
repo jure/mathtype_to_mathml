@@ -1,0 +1,36 @@
+<math display='block'>
+ <semantics>
+  <mrow>
+   <mstyle displaystyle='true'>
+    <mo>&#x2211;</mo> <mrow>
+     <mi>a</mi><mo>+</mo><mstyle displaystyle='true'>
+      <munder>
+       <mo>&#x2211;</mo>
+       <mi>b</mi>
+      </munder>
+      <mi>a</mi>
+     </mstyle></mrow>
+   </mstyle><mo>+</mo><mstyle displaystyle='true'>
+    <munderover>
+     <mo>&#x2211;</mo>
+     <mi>c</mi>
+     <mi>a</mi>
+    </munderover>
+    <mi>b</mi>
+   </mstyle><mo>+</mo><mstyle displaystyle='true'>
+    <msub>
+     <mo>&#x2211;</mo>
+     <mi>b</mi>
+    </msub>
+    <mi>a</mi>
+   </mstyle><mo>+</mo><mstyle displaystyle='true'>
+    <msubsup>
+     <mo>&#x2211;</mo>
+     <mi>c</mi>
+     <mi>a</mi>
+    </msubsup>
+    <mi>b</mi>
+   </mstyle></mrow>
+  <annotation encoding='MathType-MTEF'>MathType@MTEF@5@5@+=faaagCart1ev2aaaKnaaaaWenf2ys9wBH5garuavP1wzZbItLDhis9wBH5garmWu51MyVXgaruWqVvNCPvMCG4uz3bqee0evGueE0jxyaibaieYlf9irVeeu0dXdh9vqqj=hHeeu0xXdbba9frFj0=OqFfea0dXdd9vqaq=JfrVkFHe9pgea0dXdar=Jb9hs0dXdbPYxe9vr0=vr0=vqpi0dc9GqpWqaaeaabiGaciaacaqabeaadaqaaqaaaOqaamaaqaeabaGaamyyaiabgUcaRmaaqafabaGaamyyaaWcbaGaamOyaaqab0GaeyyeIuoaaSqabeqaniabggHiLdGccqGHRaWkdaaeWbqaaiaadkgaaSqaaiaadogaaeaacaWGHbaaniabggHiLdGccqGHRaWkdaaeqaqaaiaadggaaSqaaiaadkgaaeqaniabggHiLdGccqGHRaWkdaaeWaqaaiaadkgaaSqaaiaadogaaeaacaWGHbaaniabggHiLdaaaa@4AB8@</annotation>
+ </semantics>
+</math>

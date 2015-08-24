@@ -2,12 +2,63 @@ require "nokogiri"
 
 # XSLT 1.0 has virtually non-existent capabilities for character ranges,
 # codepoints, hex to decimal, etc., so we replace characters within character
-# ranges with Ruby. Single character translations are still done with XSLT.
+# ranges with Ruby. Additonally, it's not possible to get the actual character
+# represented by a hexadecimal number in XSLT, so we deal with those here too.
+# Regular single character translations are still done with XSLT (char.xsl).
+
+
+
 
 module MathTypeToMathML
   class CharReplacer
     UNSUPPORTED = "Unsupported (Char)"
+
+    DEFAULT_TEXTMODE = "(Char)"
+    DEFAULT_MATHMODE = "<mi>(Char)<mi>"
+
     REPLACEMENTS = {
+      0x0021 => { # Exclamation mark
+        mathmode: "<mo>(Char)</mo>"
+      },
+      0x0028 => { # Left parenthesis
+        mathmode: "<mo stretchy='false'>(Char)</mo>"
+      },
+      0x0029 => { # Right parenthesis
+        mathmode: "<mo stretchy='false'>(Char)</mo>"
+      },
+      0x002A => { # Asterisk
+        mathmode: "<mo>(Char)</mo>"
+      },
+      0x002B => { # Plus sign
+        mathmode: "<mo>(Char)</mo>"
+      },
+      0x002C => { # Plus sign
+        mathmode: "<mo>(Char)</mo>"
+      },
+      0x002D => { # Hyphen-minus
+        mathmode: "<mo>(Char)</mo>"
+      },
+      0x002E => { # Full stop
+        mathmode: "<mo>(Char)</mo>"
+      },
+      0x002F => { # Solidus
+        mathmode: "<mo>(Char)</mo>"
+      },
+      0x003D => { # Equals sign
+        mathmode: "<mo>(Char)</mo>"
+      },
+      0x003F => { # Question mark
+        mathmode: "<mo>(Char)</mo>"
+      },
+      0x005B => { # Left square bracket
+        mathmode: "<mo stretchy='false'>(Char)</mo>"
+      },
+      0x005D => { # Right square bracket
+        mathmode: "<mo stretchy='false'>(Char)</mo>"
+      },
+      0x007E => { # Tilda
+        mathmode: "<mo>(Char)</mo>"
+      },
       0x0000..0x0008 => {
         mathmode: UNSUPPORTED,
         textmode: UNSUPPORTED
@@ -274,7 +325,6 @@ module MathTypeToMathML
 
     def initialize(mathtype)
       @mathtype = mathtype
-
     end
 
     def replace
@@ -284,13 +334,18 @@ module MathTypeToMathML
         end
         replace_character(replacement, char) if replacement
       end
+
+      # Reparse XML to merge adjacent text nodes
+      @mathtype = Nokogiri::XML(@mathtype.to_xml)
     end
 
     def replace_character(replacement, char)
       if char.xpath("variation = 'textmode'")
-        xml = replacement_xml(replacement[1][:textmode], char)
+        replacement = replacement[1][:textmode] || DEFAULT_TEXTMODE
+        xml = replacement_xml(replacement, char)
       else
-        xml = replacement_xml(replacement[1][:mathmode], char)
+        replacement = replacement[1][:mathmode] || DEFAULT_MATHMODE
+        xml = replacement_xml(replacement, char)
       end
 
       char.replace Nokogiri::HTML::DocumentFragment.parse(xml)
@@ -298,7 +353,7 @@ module MathTypeToMathML
 
     def replacement_xml(string, char)
       string.gsub("(Char)") do
-        char.xpath("mt_code_value").text.hex.chr # e.g. π
+        char.xpath("mt_code_value").text.hex.chr("UTF-8") # e.g. π
       end.gsub("(CharHex)") do
         "&#x#{char.xpath('mt_code_value').text[2..-1]};" # e.g. &#x2229;
       end

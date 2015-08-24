@@ -8,7 +8,7 @@ require "pry"
 module MathTypeToMathML
   class Converter
     def initialize(mathtype)
-      @xslt = Nokogiri::XSLT(File.read("lib/transform.xsl"))
+      @xslt = Nokogiri::XSLT(File.open("lib/transform.xsl"))
 
       @mathtype = Mathtype::Converter.new(mathtype).xml.doc
 

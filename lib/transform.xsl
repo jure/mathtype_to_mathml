@@ -26,42 +26,15 @@
         </mrow>
     </xsl:template>
 
+    <!-- Non-empty text nodes -->
+    <xsl:template match="text()[normalize-space()]">
+        <xsl:value-of select="."/>
+    </xsl:template>
+
     <xsl:template match="tmpl[selector = 'tmROOT']">
         <msqrt>
             <xsl:apply-templates/>
         </msqrt>
-    </xsl:template>
-
-    <xsl:template match="char[typeface = '2']">
-        <mn>
-            <xsl:text disable-output-escaping="yes">&amp;#</xsl:text>
-            <xsl:value-of select="substring(mt_code_value/text(), 2)"/>
-            <xsl:text>;</xsl:text>
-        </mn>
-    </xsl:template>
-
-    <xsl:template match="char[typeface = '8']">
-        <mn>
-            <xsl:text disable-output-escaping="yes">&amp;#</xsl:text>
-            <xsl:value-of select="substring(mt_code_value/text(), 2)"/>
-            <xsl:text>;</xsl:text>
-        </mn>
-    </xsl:template>
-
-    <xsl:template match="char[typeface = '3']">
-        <mi>
-            <xsl:text disable-output-escaping="yes">&amp;#</xsl:text>
-            <xsl:value-of select="substring(mt_code_value/text(), 2)"/>
-            <xsl:text>;</xsl:text>
-        </mi>
-    </xsl:template>
-
-    <xsl:template match="char[typeface = '6']">
-        <mo>
-            <xsl:text disable-output-escaping="yes">&amp;#</xsl:text>
-            <xsl:value-of select="substring(mt_code_value/text(), 2)"/>
-            <xsl:text>;</xsl:text>
-        </mo>
     </xsl:template>
 
     <xsl:template match="*" />
@@ -90,15 +63,21 @@
         <mo>)</mo></mrow>
     </xsl:template>
 
-    <xsl:include href="lib/xsl/pile.xsl" />
-    <xsl:include href="lib/xsl/char.xsl" />
-    <xsl:include href="lib/xsl/embellishment.xsl" />
-    <xsl:include href="lib/xsl/subsup.xsl"/>
-    <xsl:include href="lib/xsl/sum.xsl"/>
-    <xsl:include href="lib/xsl/union_intersection.xsl"/>
-    <xsl:include href="lib/xsl/arrow.xsl"/>
-    <xsl:include href="lib/xsl/matrix.xsl"/>
-    <xsl:include href="lib/xsl/brace.xsl"/>
+
+    <xsl:include href="xsl/int.xsl" />
+    <xsl:include href="xsl/lim.xsl" />
+    <xsl:include href="xsl/frac.xsl" />
+    <xsl:include href="xsl/pile.xsl" />
+    <xsl:include href="xsl/char.xsl" />
+    <xsl:include href="xsl/embellishment.xsl" />
+    <xsl:include href="xsl/subsup.xsl"/>
+    <xsl:include href="xsl/sum.xsl"/>
+    <xsl:include href="xsl/product_coproduct.xsl"/>
+    <xsl:include href="xsl/union_intersection.xsl"/>
+    <xsl:include href="xsl/box.xsl" />
+    <xsl:include href="xsl/fence.xsl" />
+    <xsl:include href="xsl/arrow.xsl"/>
+    <xsl:include href="xsl/matrix.xsl"/>
 
 
 </xsl:stylesheet>

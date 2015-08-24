@@ -54,4 +54,28 @@
         <xsl:apply-templates select="slot[1]"/>
         </mstyle>
     </xsl:template>
+
+    <!-- Sum operator -->
+    <xsl:template match="tmpl[selector='tmSUMOP']">
+        <munderover>
+            <mstyle mathsize="140%" displaystyle="true"><xsl:apply-templates select="slot[4]"/></mstyle>
+            <xsl:apply-templates select="slot[2]"/>
+            <xsl:apply-templates select="slot[3]"/>
+        </munderover>
+    </xsl:template>
+
+    <xsl:template match="tmpl[selector='tmSUMOP' and variation='tvBO_UPPER' ]">
+        <mover>
+            <mstyle mathsize="140%" displaystyle="true"><xsl:apply-templates select="slot[4]"/></mstyle>
+            <xsl:apply-templates select="slot[3]"/>
+        </mover>
+    </xsl:template>
+
+    <xsl:template match="tmpl[selector='tmSUMOP' and variation='tvBO_LOWER' ]">
+        <munder>
+            <mstyle mathsize="140%" displaystyle="true"><xsl:apply-templates select="slot[4]"/></mstyle>
+            <xsl:apply-templates select="slot[2]"/>
+        </munder>
+    </xsl:template>
+
 </xsl:stylesheet>

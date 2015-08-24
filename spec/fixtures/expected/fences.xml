@@ -1,0 +1,64 @@
+<math display='block'>
+ <semantics>
+  <mtable columnalign='left'>
+   <mtr>
+    <mtd>
+     <mrow><mo>(</mo>
+      <mi>a</mi>
+     <mo>)</mo></mrow><mo>+</mo><mrow><mo>[</mo> <mi>b</mi> <mo>]</mo></mrow><mo>+</mo><mrow><mo>{</mo> <mi>c</mi> <mo>}</mo></mrow><mo>+</mo><mrow><mo>&#x2329;</mo> <mi>d</mi> <mo>&#x232A;</mo></mrow><mo>+</mo><mrow><mo>|</mo> <mi>e</mi> <mo>|</mo></mrow><mo>+</mo><mrow><mo>&#x2016;</mo> <mi>f</mi> <mo>&#x2016;</mo></mrow><mo>+</mo><mrow><mo>&#x230A;</mo> <mi>g</mi> <mo>&#x230B;</mo></mrow><mo>+</mo>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow><mo>&#x2308;</mo> <mi>h</mi> <mo>&#x2309;</mo></mrow><mo>+</mo><mrow><mo>[</mo> <mi>i</mi> <mo>)</mo></mrow><mo>+</mo><mrow><mo>(</mo> <mi>j</mi> <mo>]</mo></mrow><mo>+</mo><mrow><mo>|</mo><mi>k</mi><mo>&#x232A;</mo></mrow><mo>+</mo><mrow><mo>&#x2329;</mo><mi>l</mi><mo>|</mo></mrow><mo>+</mo><mrow> <mo>[</mo> <mi>m</mi> <mo>[</mo> </mrow><mo>+</mo><mrow><mo>]</mo> <mi>n</mi> <mo>]</mo></mrow><mo>+</mo>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow><mo>]</mo> <mi>o</mi> <mo>[</mo></mrow><mo>+</mo><mrow><mo>&#x301A;</mo><mi>p</mi><mo>&#x301B;</mo></mrow><mo>+</mo><mrow><mo>(</mo> <mi>r</mi></mrow><mo>+</mo><mrow> <mi>s</mi> <mo>)</mo></mrow><mo>+</mo><mrow> <mo>[</mo> <mi>t</mi> </mrow><mo>+</mo><mrow><mi>u</mi> <mo>]</mo></mrow><mo>+</mo><mrow><mo>{</mo> <mrow>
+      <mi>v</mi><mo>+</mo><mrow><mi>x</mi> <mo>}</mo></mrow></mrow> </mrow><mo>+</mo>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow><mo>&#x2329;</mo><mi>y</mi></mrow><mo>+</mo><mrow><mi>z</mi><mo>&#x232A;</mo></mrow><mo>+</mo><mrow><mo>|</mo><mi>a</mi></mrow><mo>+</mo><mrow><mi>b</mi><mo>|</mo></mrow><mo>+</mo><mrow><mo>&#x2016;</mo><mi>a</mi></mrow><mo>+</mo><mrow><mi>b</mi><mo>&#x2016;</mo></mrow><mo>+</mo><mrow><mo>&#x301A;</mo><mi>a</mi></mrow><mo>+</mo><mrow><mi>b</mi><mo>&#x301B;</mo></mrow><mo>+</mo><mrow><mo>&#x2329;</mo><mi>a</mi><mo>|</mo><mi>b</mi><mo>&#x232A;</mo></mrow><mo>+</mo>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mover>
+      <mover>
+       <mi>a</mi>
+       <mo stretchy='true'>&#xFE37;</mo>
+      </mover>
+      <mi>b</mi>
+     </mover>
+     <mo>+</mo><munder>
+      <munder>
+       <mi>b</mi>
+       <mo stretchy='true'>&#xFE38;</mo>
+      </munder>
+      <mi>c</mi>
+     </munder>
+     <mo>+</mo><mover>
+      <mover>
+       <mi>a</mi>
+       <mo stretchy='true'>&#x23B4;</mo>
+      </mover>
+      <mi>b</mi>
+     </mover>
+     <mo>+</mo><munder>
+      <munder>
+       <mi>a</mi>
+       <mo stretchy='true'>&#x23B5;</mo>
+      </munder>
+      <mi>b</mi>
+     </munder>
+
+    </mtd>
+   </mtr>
+  </mtable>
+
+  <annotation encoding='MathType-MTEF'>MathType@MTEF@5@5@+=faaagCart1ev2aaaKnaaaaWenf2ys9wBH5garuavP1wzZbItLDhis9wBH5garmWu51MyVXgaruWqVvNCPvMCG4uz3bqee0evGueE0jxyaibaieYlf9irVeeu0dXdh9vqqj=hHeeu0xXdbba9frFj0=OqFfea0dXdd9vqaq=JfrVkFHe9pgea0dXdar=Jb9hs0dXdbPYxe9vr0=vr0=vqpi0dc9GqpWqaaeaabiGaciaacaqabeaadaqaaqaaaOabaeqabaWaaeWaaeaacaWGHbaacaGLOaGaayzkaaGaey4kaSYaamWaaeaacaWGIbaacaGLBbGaayzxaaGaey4kaSYaaiWaaeaacaWGJbaacaGL7bGaayzFaaGaey4kaSYaaaWaaeaacaWGKbaacaGLPmIaayPkJaGaey4kaSYaaqWaaeaacaWGLbaacaGLhWUaayjcSdGaey4kaSYaauWaaeaacaWGMbaacaGLjWUaayPcSdGaey4kaSYaayWaaeaacaWGNbaacaGLWJVaay5+4dGaey4kaScabaWaaCWaaeaacaWGObaacaGLUJVaayz+4dGaey4kaSYaaKGeaeaacaWGPbaacaGLBbGaayzkaaGaey4kaSYaaKamaeaacaWGQbaacaGLOaGaayzxaaGaey4kaSYaa4HaaeqabaGaam4AaaGaay5bSlaawQYiaiabgUcaRmaaEeaabaGaamiBaaqabiaawMYicaGLhWoacqGHRaWkdaqcIaqaaiaad2gaaiaawUfacaGLBbaacqGHRaWkdaqcZaqaaiaad6gaaiaaw2facaGLDbaacqGHRaWkaeaadaqcJaqaaiaad+gaaiaaw2facaGLBbaacqGHRaWkdaacdaqaaiaadchaaiaawQbmcaGLBadacqGHRaWkdaqabaqaaiaadkhaaiaawIcaaiabgUcaRmaabiaabaGaam4CaaGaayzkaaGaey4kaSYaamqaaeaacaWG0baacaGLBbaacqGHRaWkdaWacaqaaiaadwhaaiaaw2faaiabgUcaRmaaceaabaGaamODaiabgUcaRmaaciaabaGaamiEaaGaayzFaaaacaGL7baacqGHRaWkaeaadaaabaqaaiaadMhaaiaawMYiaiabgUcaRmaaaiaabaGaamOEaaGaayPkJaGaey4kaSYaaqqaaeaacaWGHbaacaGLhWoacqGHRaWkdaabcaqaaiaadkgaaiaawIa7aiabgUcaRmaafeaabaGaamyyaaGaayzcSdGaey4kaSYaauGaaeaacaWGIbaacaGLkWoacqGHRaWkdaacbaqaaiaadggaaiaawQbmaiabgUcaRmaaiiaabaGaamOyaaGaay5gWaGaey4kaSYaa4XaaeaacaWGHbaabaGaamOyaaGaayzkJiaawEa7caGLQmcacqGHRaWkaeaadaagbaqaaiaadggaaSqaaiaadkgaaOGaay5n+dGaey4kaSYaaGbaaeaacaWGIbaaleaacaWGJbaakiaawIJ=aiabgUcaRmaazeaabaGaamyyaaWcbaGaamOyaaGccaGLnWoacqGHRaWkdaqgaaqaaiaadggaaSqaaiaadkgaaOGaayjdSdaaaaa@B9CB@</annotation>
+ </semantics>
+</math>

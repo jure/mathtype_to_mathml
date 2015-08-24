@@ -1,0 +1,140 @@
+<math display='block'>
+ <semantics>
+  <mtable columnalign='left'>
+   <mtr>
+    <mtd>
+     <mstyle displaystyle='true'>
+      <mo>&#x220F;</mo> <mi>a</mi>
+     </mstyle><mo>&#x2212;</mo><mstyle displaystyle='true'>
+      <munder>
+       <mo>&#x220F;</mo>
+       <mi>b</mi>
+      </munder>
+      <mi>a</mi>
+     </mstyle><mo>&#x2212;</mo><mstyle displaystyle='true'>
+      <munderover>
+       <mo>&#x220F;</mo>
+       <mi>c</mi>
+       <mi>a</mi>
+      </munderover>
+      <mi>b</mi>
+     </mstyle><mo>&#x2212;</mo><mstyle displaystyle='true'>
+      <msub>
+     <mo>&#x220F;</mo>
+     <mi>b</mi>
+    </msub>
+    <mi>a</mi>
+   </mstyle><mo>&#x2212;</mo><mstyle displaystyle='true'>
+    <msubsup>
+   <mo>&#x220F;</mo>
+   <mi>c</mi>
+   <mi>a</mi>
+  </msubsup>
+  <mi>b</mi>
+ </mstyle>
+</mtd>
+</mtr>
+<mtr>
+ <mtd>
+  <mstyle displaystyle='true'>
+   <mo>&#x2210;</mo> <mi>a</mi>
+  </mstyle><mo>&#x2212;</mo><mstyle displaystyle='true'>
+   <munder>
+    <mo>&#x2210;</mo>
+    <mi>b</mi>
+   </munder>
+   <mi>a</mi>
+  </mstyle><mo>&#x2212;</mo><mstyle displaystyle='true'>
+   <munderover>
+    <mo>&#x2210;</mo>
+    <mi>c</mi>
+    <mi>a</mi>
+   </munderover>
+   <mi>b</mi>
+  </mstyle><mo>&#x2212;</mo><mstyle displaystyle='true'>
+   <msub>
+    <mo>&#x2210;</mo>
+    <mi>b</mi>
+   </msub>
+   <mi>a</mi>
+  </mstyle><mo>&#x2212;</mo><mstyle displaystyle='true'>
+   <msubsup>
+    <mo>&#x2210;</mo>
+    <mi>c</mi>
+    <mi>a</mi>
+   </msubsup>
+   <mi>b</mi>
+  </mstyle>
+ </mtd>
+</mtr>
+<mtr>
+ <mtd>
+  <mstyle displaystyle='true'>
+   <mo>&#x2229;</mo> <mi>a</mi>
+  </mstyle><mo>&#x2212;</mo><mstyle displaystyle='true'>
+   <munder>
+    <mo>&#x2229;</mo>
+    <mi>b</mi>
+   </munder>
+   <mi>a</mi>
+  </mstyle><mo>&#x2212;</mo><mstyle displaystyle='true'>
+   <munderover>
+    <mo>&#x2229;</mo>
+    <mi>c</mi>
+    <mi>a</mi>
+   </munderover>
+   <mi>b</mi>
+  </mstyle><mo>&#x2212;</mo><mstyle displaystyle='true'>
+   <msub>
+    <mo>&#x2229;</mo>
+    <mi>b</mi>
+   </msub>
+   <mi>a</mi>
+  </mstyle><mo>&#x2212;</mo><mstyle displaystyle='true'>
+   <msubsup>
+    <mo>&#x2229;</mo>
+    <mi>c</mi>
+    <mi>a</mi>
+   </msubsup>
+   <mi>b</mi>
+  </mstyle>
+ </mtd>
+</mtr>
+<mtr>
+ <mtd>
+  <mstyle displaystyle='true'>
+   <mo>&#x222A;</mo> <mi>a</mi>
+  </mstyle><mo>&#x2212;</mo><mstyle displaystyle='true'>
+   <munder>
+    <mo>&#x222A;</mo>
+    <mi>b</mi>
+   </munder>
+   <mi>a</mi>
+  </mstyle><mo>&#x2212;</mo><mstyle displaystyle='true'>
+   <munderover>
+    <mo>&#x222A;</mo>
+    <mi>c</mi>
+    <mi>a</mi>
+   </munderover>
+   <mi>b</mi>
+  </mstyle><mo>&#x2212;</mo><mstyle displaystyle='true'>
+   <msub>
+    <mo>&#x222A;</mo>
+    <mi>b</mi>
+   </msub>
+   <mi>a</mi>
+  </mstyle><mo>&#x2212;</mo><mstyle displaystyle='true'>
+   <msubsup>
+    <mo>&#x222A;</mo>
+    <mi>c</mi>
+    <mi>a</mi>
+   </msubsup>
+   <mi>b</mi>
+  </mstyle>
+ </mtd>
+</mtr>
+</mtable>
+
+<annotation encoding='MathType-MTEF'>MathType@MTEF@5@5@+=faaagCart1ev2aaaKnaaaaWenf2ys9wBH5garuavP1wzZbItLDhis9wBH5garmWu51MyVXgaruWqVvNCPvMCG4uz3bqee0evGueE0jxyaibaieYlf9irVeeu0dXdh9vqqj=hHeeu0xXdbba9frFj0=OqFfea0dXdd9vqaq=JfrVkFHe9pgea0dXdar=Jb9hs0dXdbPYxe9vr0=vr0=vqpi0dc9GqpWqaaeaabiGaciaacaqabeaadaqaaqaaaOabaeqabaWaaebaaeaacaWGHbaaleqabeqdcqGHpis1aOGaeyOeI0YaaebuaeaacaWGHbaaleaacaWGIbaabeqdcqGHpis1aOGaeyOeI0YaaebCaeaacaWGIbaaleaacaWGJbaabaGaamyyaaqdcqGHpis1aOGaeyOeI0YaaebeaeaacaWGHbaaleaacaWGIbaabeqdcqGHpis1aOGaeyOeI0YaaebmaeaacaWGIbaaleaacaWGJbaabaGaamyyaaqdcqGHpis1aaGcbaWaaibaaeaacaWGHbaaleqabeqdcqWIqiYqaOGaeyOeI0YaaibuaeaacaWGHbaaleaacaWGIbaabeqdcqWIqiYqaOGaeyOeI0YaaibCaeaacaWGIbaaleaacaWGJbaabaGaamyyaaqdcqWIqiYqaOGaeyOeI0YaaibeaeaacaWGHbaaleaacaWGIbaabeqdcqWIqiYqaOGaeyOeI0YaaibmaeaacaWGIbaaleaacaWGJbaabaGaamyyaaqdcqWIqiYqaaGcbaWaaqbaaeaacaWGHbaaleqabeqdcqWIPissaOGaeyOeI0YaaqbuaeaacaWGHbaaleaacaWGIbaabeqdcqWIPissaOGaeyOeI0YaaqbCaeaacaWGIbaaleaacaWGJbaabaGaamyyaaqdcqWIPissaOGaeyOeI0YaaqbeaeaacaWGHbaaleaacaWGIbaabeqdcqWIPissaOGaeyOeI0YaaqbmaeaacaWGIbaaleaacaWGJbaabaGaamyyaaqdcqWIPissaaGcbaWaambaaeaacaWGHbaaleqabeqdcqWIQisvaOGaeyOeI0YaambuaeaacaWGHbaaleaacaWGIbaabeqdcqWIQisvaOGaeyOeI0YaambCaeaacaWGIbaaleaacaWGJbaabaGaamyyaaqdcqWIQisvaOGaeyOeI0YaambeaeaacaWGHbaaleaacaWGIbaabeqdcqWIQisvaOGaeyOeI0YaambmaeaacaWGIbaaleaacaWGJbaabaGaamyyaaqdcqWIQisvaaaaaa@8A8E@</annotation>
+</semantics>
+</math>
