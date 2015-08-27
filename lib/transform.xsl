@@ -7,7 +7,13 @@
         <xsl:apply-templates select=".//mtef" />
     </xsl:template>
 
-    <xsl:template match="mtef">
+    <xsl:template match="mtef[equation_options = 'inline']">
+        <math>
+            <xsl:apply-templates select="pile | slot"/>
+        </math>
+    </xsl:template>
+
+    <xsl:template match="mtef[equation_options = 'block']">
         <math display="block">
             <xsl:apply-templates select="pile | slot"/>
         </math>
