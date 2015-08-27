@@ -3,7 +3,6 @@ require "nokogiri"
 require "mathtype"
 require_relative "mathtype_to_mathml/mover"
 require_relative "mathtype_to_mathml/char_replacer"
-require "pry"
 
 module MathTypeToMathML
   class Converter
