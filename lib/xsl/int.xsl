@@ -11,23 +11,23 @@
 
     <xsl:template match="tmpl[selector='tmINTOP']">
         <msubsup>
-            <mstyle mathsize="140%" displaystyle="true"><xsl:apply-templates select="slot[4]"/></mstyle>
-            <xsl:apply-templates select="slot[2]"/>
-            <xsl:apply-templates select="slot[3]"/>
+            <mstyle mathsize="140%" displaystyle="true"><xsl:apply-templates select="slot[4] | pile[4]"/></mstyle>
+            <xsl:apply-templates select="slot[2] | pile[2]"/>
+            <xsl:apply-templates select="slot[3] | pile[3]"/>
         </msubsup>
     </xsl:template>
 
     <xsl:template match="tmpl[selector='tmINTOP' and variation='tvBO_UPPER']">
         <msup>
-            <mstyle mathsize="140%" displaystyle="true"><xsl:apply-templates select="slot[4]"/></mstyle>
-            <xsl:apply-templates select="slot[3]"/>
+            <mstyle mathsize="140%" displaystyle="true"><xsl:apply-templates select="slot[4] | pile[4] | pile[4]"/></mstyle>
+            <xsl:apply-templates select="slot[3] | pile[3]"/>
         </msup>
     </xsl:template>
 
     <xsl:template match="tmpl[selector='tmINTOP' and variation='tvBO_LOWER' and not(variation='tvBO_UPPER')]">
         <msub>
-            <mstyle mathsize="140%" displaystyle="true"><xsl:apply-templates select="slot[4]"/></mstyle>
-            <xsl:apply-templates select="slot[2]"/>
+            <mstyle mathsize="140%" displaystyle="true"><xsl:apply-templates select="slot[4] | pile[4]"/></mstyle>
+            <xsl:apply-templates select="slot[2] | pile[2]"/>
         </msub>
     </xsl:template>
 
@@ -38,10 +38,10 @@
             <mrow>
                 <msubsup>
                     <mo>&#x222B;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
-                    <xsl:apply-templates select="slot[3]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
+                    <xsl:apply-templates select="slot[3] | pile[3]"/>
                 </msubsup>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -49,7 +49,7 @@
     <xsl:template match="tmpl[selector='tmINTEG' and (not(variation='tvBO_UPPER') and not(variation='tvBO_LOWER'))]">
         <mstyle displaystyle="true">
             <mrow><mo>&#x222B;</mo>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -59,10 +59,10 @@
             <mrow>
                 <munderover>
                     <mo>&#x222B;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
-                    <xsl:apply-templates select="slot[3]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
+                    <xsl:apply-templates select="slot[3] | pile[3]"/>
                 </munderover>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -72,10 +72,10 @@
             <mrow>
                 <msubsup>
                     <mo stretchy="true">&#x222B;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
-                    <xsl:apply-templates select="slot[3]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
+                    <xsl:apply-templates select="slot[3] | pile[3]"/>
                 </msubsup>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -85,9 +85,9 @@
             <mrow>
                 <msub>
                     <mo>&#x222B;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </msub>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -97,9 +97,9 @@
             <mrow>
                 <msub>
                     <mo>&#x222C;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </msub>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -108,7 +108,7 @@
         <mstyle displaystyle="true">
             <mrow>
                 <mo>&#x222C;</mo>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -118,9 +118,9 @@
             <mrow>
                 <msub>
                     <mo>&#x222D;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </msub>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -130,9 +130,9 @@
             <mrow>
                 <msub>
                     <mo>&#x222E;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </msub>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -142,9 +142,9 @@
             <mrow>
                 <msub>
                     <mo>&#x2232;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </msub>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -154,9 +154,9 @@
             <mrow>
                 <msub>
                     <mo>&#x2233;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </msub>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -165,7 +165,7 @@
         <mstyle displaystyle="true">
             <mrow>
                 <mo>&#x222E;</mo>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -175,9 +175,9 @@
             <mrow>
                 <munder>
                     <mo>&#x222B;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </munder>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -187,10 +187,10 @@
             <mrow>
                 <munderover>
                     <mo stretchy="true">&#x222B;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
-                    <xsl:apply-templates select="slot[3]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
+                    <xsl:apply-templates select="slot[3] | pile[3]"/>
                 </munderover>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -200,9 +200,9 @@
             <mrow>
                 <munder>
                     <mo>&#x222C;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </munder>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -212,9 +212,9 @@
             <mrow>
                 <msub>
                     <mo>&#x222F;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </msub>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -224,10 +224,10 @@
             <mrow>
                 <msub>
                     <mo stretchy="true">&#x222C;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </msub>
-                <xsl:apply-templates select="slot[1]"/>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
 
         </mstyle>
@@ -238,9 +238,9 @@
             <mrow>
                 <munder>
                     <mo stretchy="true">&#x222C;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </munder>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -251,9 +251,9 @@
             <mrow>
                 <munder>
                     <mo>&#x222E;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </munder>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -263,9 +263,9 @@
             <mrow>
                 <munder>
                     <mo>&#x2232;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </munder>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -275,9 +275,9 @@
             <mrow>
                 <munder>
                     <mo>&#x2233;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </munder>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -287,9 +287,9 @@
             <mrow>
                 <munder>
                     <mo>&#x222D;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </munder>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -299,9 +299,9 @@
             <mrow>
                 <msub>
                     <mo>&#x2230;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </msub>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -311,9 +311,9 @@
             <mrow>
                 <msub>
                     <mo stretchy="true">&#x222D;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </msub>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -323,9 +323,9 @@
             <mrow>
                 <msub>
                     <mo stretchy="true">&#x2232;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </msub>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -335,9 +335,9 @@
             <mrow>
                 <msub>
                     <mo stretchy="true">&#x2233;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </msub>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -348,9 +348,9 @@
             <mrow>
                 <msub>
                     <mo stretchy="true">&#x222E;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </msub>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -360,9 +360,9 @@
             <mrow>
                 <munder>
                     <mo>&#x222F;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </munder>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -372,9 +372,9 @@
             <mrow>
                 <msub>
                     <mo stretchy="true">&#x222F;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </msub>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -383,7 +383,7 @@
         <mstyle displaystyle="true">
             <mrow>
                 <mo>&#x222F;</mo>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -392,7 +392,7 @@
         <mstyle displaystyle="true">
             <mrow>
                 <mo>&#x222D;</mo>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -402,9 +402,9 @@
             <mrow>
                 <munder>
                     <mo stretchy="true">&#x222D;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </munder>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -414,9 +414,9 @@
             <mrow>
                 <munder>
                     <mo>&#x2230;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </munder>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -426,9 +426,9 @@
             <mrow>
                 <msub>
                     <mo stretchy="true">&#x2230;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </msub>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -438,7 +438,7 @@
         <mstyle displaystyle="true">
             <mrow>
                 <mo>&#x2232;</mo>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -447,7 +447,7 @@
         <mstyle displaystyle="true">
             <mrow>
                 <mo>&#x2233;</mo>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -457,9 +457,9 @@
             <mrow>
                 <msub>
                     <mo stretchy="true">&#x222B;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </msub>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -469,9 +469,9 @@
             <mrow>
                 <munder>
                     <mo stretchy="true">&#x222E;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </munder>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -481,9 +481,9 @@
             <mrow>
                 <munder>
                     <mo stretchy="true">&#x2233;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </munder>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -493,9 +493,9 @@
             <mrow>
                 <munder>
                     <mo stretchy="true">&#x2232;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </munder>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -504,7 +504,7 @@
         <mstyle displaystyle="true">
             <mrow>
                 <mo stretchy="true">&#x222B;</mo>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -513,7 +513,7 @@
         <mstyle displaystyle="true">
             <mrow>
                 <mo stretchy="true">&#x222C;</mo>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -522,7 +522,7 @@
         <mstyle displaystyle="true">
             <mrow>
                 <mo stretchy="true">&#x222D;</mo>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -532,9 +532,9 @@
             <mrow>
                 <munder>
                     <mo stretchy="true">&#x222B;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </munder>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -543,7 +543,7 @@
         <mstyle displaystyle="true">
             <mrow>
                 <mo>&#x2230;</mo>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -553,9 +553,9 @@
             <mrow>
                 <munder>
                     <mo stretchy="true">&#x2230;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </munder>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -564,7 +564,7 @@
         <mstyle displaystyle="true">
             <mrow>
                 <mo stretchy="true">&#x2233;</mo>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -574,7 +574,7 @@
         <mstyle displaystyle="true">
             <mrow>
                 <mo stretchy="true">&#x222E;</mo>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -585,9 +585,9 @@
             <mrow>
                 <munder>
                     <mo stretchy="true">&#x222F;</mo>
-                    <xsl:apply-templates select="slot[2]"/>
+                    <xsl:apply-templates select="slot[2] | pile[2]"/>
                 </munder>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -596,7 +596,7 @@
         <mstyle displaystyle="true">
             <mrow>
                 <mo stretchy="true">&#x2232;</mo>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -606,7 +606,7 @@
         <mstyle displaystyle="true">
             <mrow>
                 <mo stretchy="true">&#x222F;</mo>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>
@@ -615,7 +615,7 @@
         <mstyle displaystyle="true">
             <mrow>
                 <mo stretchy="true">&#x2230;</mo>
-                <xsl:apply-templates select="slot[1]"/>
+                <xsl:apply-templates select="slot[1] | pile[1]"/>
             </mrow>
         </mstyle>
     </xsl:template>

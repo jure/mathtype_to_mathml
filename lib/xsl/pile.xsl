@@ -12,7 +12,7 @@
     The next line is translated;
     If there are any more lines, go back to Step 3. Otherwise, continue with the next step;
     The <end> part of the translation string is output.
- -->
+    -->
     <xsl:template match="pile">
         <mtable>
             <xsl:apply-templates select="slot" mode="wrap"/>

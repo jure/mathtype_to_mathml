@@ -8,34 +8,34 @@
 
     <xsl:template match="tmpl[selector='tmBOX' and (variation='tvBX_TOP' and variation='tvBX_LEFT')]">
         <menclose notation="top left">
-            <xsl:apply-templates select="slot[1]"/>
+            <xsl:apply-templates select="slot[1] | pile[1]"/>
         </menclose>
     </xsl:template>
 
 
     <xsl:template match="tmpl[selector='tmBOX' and (variation='tvBX_TOP' and variation='tvBX_RIGHT')]">
         <menclose notation="actuarial">
-            <xsl:apply-templates select="slot[1]"/>
+            <xsl:apply-templates select="slot[1] | pile[1]"/>
         </menclose>
     </xsl:template>
 
 
     <xsl:template match="tmpl[selector='tmBOX' and (variation='tvBX_BOTTOM' and variation='tvBX_LEFT')]">
         <menclose notation="bottom left">
-            <xsl:apply-templates select="slot[1]"/>
+            <xsl:apply-templates select="slot[1] | pile[1]"/>
         </menclose>
     </xsl:template>
 
 
     <xsl:template match="tmpl[selector='tmBOX' and (variation='tvBX_BOTTOM' and variation='tvBX_RIGHT')]">
         <menclose notation="bottom right">
-            <xsl:apply-templates select="slot[1]"/>
+            <xsl:apply-templates select="slot[1] | pile[1]"/>
         </menclose>
     </xsl:template>
 
      <xsl:template match="tmpl[selector='tmBOX' and variation='tvBX_TOP' and variation='tvBX_BOTTOM' and variation='tvBX_LEFT' and variation='tvBX_RIGHT']">
         <menclose notation="box">
-            <xsl:apply-templates select="slot[1]"/>
+            <xsl:apply-templates select="slot[1] | pile[1]"/>
         </menclose>
     </xsl:template>
 

@@ -8,24 +8,24 @@
 
     <xsl:template match="tmpl[selector='tmLIM']">
         <munder>
-            <xsl:apply-templates select="slot[1]"/>
-            <xsl:apply-templates select="slot[2]"/>
+            <xsl:apply-templates select="slot[1] | pile[1]"/>
+            <xsl:apply-templates select="slot[2] | pile[2]"/>
         </munder>
     </xsl:template>
 
 
     <xsl:template match="tmpl[selector='tmLIM' and variation='tvBO_UPPER']">
         <mover>
-            <xsl:apply-templates select="slot[1]"/>
-            <xsl:apply-templates select="slot[3]"/>
+            <xsl:apply-templates select="slot[1] | pile[1]"/>
+            <xsl:apply-templates select="slot[3] | pile[3]"/>
         </mover>
     </xsl:template>
 
     <xsl:template match="tmpl[selector='tmLIM' and (variation='tvBO_UPPER' and variation='tvBO_LOWER')]">
         <munderover>
-            <xsl:apply-templates select="slot[1]"/>
-            <xsl:apply-templates select="slot[2]"/>
-            <xsl:apply-templates select="slot[3]"/>
+            <xsl:apply-templates select="slot[1] | pile[1]"/>
+            <xsl:apply-templates select="slot[2] | pile[2]"/>
+            <xsl:apply-templates select="slot[3] | pile[3]"/>
         </munderover>
     </xsl:template>
 
