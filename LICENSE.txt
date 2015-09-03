@@ -1,4 +1,4 @@
-Copyright (c) 2015 PLOS
+Copyright (c) 2015 Jure Triglav
 
 MIT License
 

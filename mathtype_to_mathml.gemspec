@@ -6,8 +6,8 @@ require 'mathtype_to_mathml/version'
 Gem::Specification.new do |spec|
   spec.name          = "mathtype_to_mathml"
   spec.version       = MathTypeToMathML::VERSION
-  spec.authors       = ["PLOS"]
-  spec.email         = ["plos@plos.org"]
+  spec.authors       = ["Jure Triglav"]
+  spec.email         = ["juretriglav@gmail.com"]
   spec.summary       = %q{Converts from a binary MathType format (MTEF) to MathML.}
   spec.description   = %q{This gem can be used to convert MathType equations from a binary format (e.g. embedded in Word documents) to an open MathML representation. It achieves that in several stages, first using the "mathtype" gem to convert from a binary to an XML form of MTEF, and second, using XSLTs to convert XML to MathML.}
   spec.homepage      = ""
