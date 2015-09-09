@@ -1,6 +1,6 @@
 # MathTypeToMathML
 
-This gem can be used to convert MathType equations from a binary format (e.g. embedded in Word documents) to an open MathML representation. It achieves that in several stages, first using the "mathtype" gem to convert from a binary to an XML form of MTEF, and second, using XSLTs to convert XML to MathML.
+This gem can be used to convert MathType equations from a binary format (e.g. embedded in Word documents) to an open MathML representation. It achieves that in several stages, first using the [`mathtype`](https://github.com/jure/mathtype) gem to convert from a binary to an XML form of MTEF, and second, using XSLTs to convert XML to MathML.
 
 ## Installation
 
