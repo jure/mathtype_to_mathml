@@ -9,7 +9,7 @@ RSpec.describe MathTypeToMathML do
     it "converted #{equation} matches expected output" do
       xml = MathTypeToMathML::Converter.new(equation).convert
       expected = File.open("spec/fixtures/expected/#{File.basename(equation, '.bin')}.xml").read
-      expect(xml).to eq(expected)
+      expect(xml).to be_equivalent_to(expected)
     end
   end
 end
