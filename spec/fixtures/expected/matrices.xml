@@ -1,253 +1,304 @@
+<?xml version="1.0"?>
 <math>
- <semantics>
   <mrow>
-   <mtable>
-    <mtr>
-     <mtd>
-      <mtable columnalign='left'>
-       <mtr>
-        <mtd>
-         <mi>d</mi>
+    <mtable>
+      <mtr columnalign="center">
+        <mtd columnalign="center">
+          <mtable columnalign="left">
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>d</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>g</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>b</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>a</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>b</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>c</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+          </mtable>
         </mtd>
-       </mtr>
-       <mtr>
-        <mtd>
-         <mi>g</mi>
+        <mtd columnalign="center">
+          <mtable columnalign="left">
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>d</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>b</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>d</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>a</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>b</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>c</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+          </mtable>
         </mtd>
-       </mtr>
-       <mtr>
-        <mtd>
-         <mi>b</mi>
+        <mtd columnalign="center">
+          <mtable columnalign="left">
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>c</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>b</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>d</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>d</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>b</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>e</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+          </mtable>
         </mtd>
-       </mtr>
-       <mtr>
-        <mtd>
-         <mi>a</mi>
+      </mtr>
+      <mtr columnalign="center">
+        <mtd columnalign="center">
+          <mtable columnalign="left">
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>a</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>b</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+          </mtable>
         </mtd>
-       </mtr>
-       <mtr>
-        <mtd>
-         <mi>b</mi>
+        <mtd columnalign="center">
+          <mtable columnalign="left">
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>c</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>d</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+          </mtable>
         </mtd>
-       </mtr>
-       <mtr>
-        <mtd>
-         <mi>c</mi>
+        <mtd columnalign="center">
+          <mtable columnalign="left">
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>e</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd>
+                <mrow>
+                  <mi>f</mi>
+                </mrow>
+              </mtd>
+            </mtr>
+          </mtable>
         </mtd>
-       </mtr>
-      </mtable>
-
-     </mtd>
-     <mtd>
-      <mtable columnalign='left'>
-       <mtr>
-        <mtd>
-         <mi>d</mi>
+      </mtr>
+      <mtr columnalign="center">
+        <mtd columnalign="center">
+          <mi>x</mi>
         </mtd>
-       </mtr>
-       <mtr>
-        <mtd>
-         <mi>b</mi>
+        <mtd columnalign="center">
+          <mi>y</mi>
         </mtd>
-       </mtr>
-       <mtr>
-        <mtd>
-         <mi>d</mi>
+        <mtd columnalign="center">
+          <mi>z</mi>
         </mtd>
-       </mtr>
-       <mtr>
-        <mtd>
-         <mi>a</mi>
+      </mtr>
+    </mtable>
+    <mo>+</mo>
+    <mtable>
+      <mtr columnalign="center">
+        <mtd columnalign="center">
+          <mi>a</mi>
+          <mo>+</mo>
+          <mi>b</mi>
         </mtd>
-       </mtr>
-       <mtr>
-        <mtd>
-         <mi>b</mi>
+        <mtd columnalign="center">
+          <mi>d</mi>
         </mtd>
-       </mtr>
-       <mtr>
-        <mtd>
-         <mi>c</mi>
+        <mtd columnalign="center">
+          <mn>3</mn>
+          <mi>e</mi>
         </mtd>
-       </mtr>
-      </mtable>
-
-     </mtd>
-     <mtd>
-      <mtable columnalign='left'>
-       <mtr>
-        <mtd>
-         <mi>c</mi>
+      </mtr>
+      <mtr columnalign="center">
+        <mtd columnalign="center">
+          <mi>v</mi>
+          <mo>&#x2212;</mo>
+          <mn>2</mn>
         </mtd>
-       </mtr>
-       <mtr>
-        <mtd>
-         <mi>b</mi>
+        <mtd columnalign="center">
+          <mi>r</mi>
+          <mo>+</mo>
+          <mi>l</mi>
         </mtd>
-       </mtr>
-       <mtr>
-        <mtd>
-         <mi>d</mi>
+        <mtd columnalign="center">
+          <mi>d</mi>
+          <mi>b</mi>
+          <mo>+</mo>
+          <mn>3</mn>
         </mtd>
-       </mtr>
-       <mtr>
-        <mtd>
-         <mi>d</mi>
+      </mtr>
+      <mtr columnalign="center">
+        <mtd columnalign="center">
+          <mi>x</mi>
         </mtd>
-       </mtr>
-       <mtr>
-        <mtd>
-         <mi>b</mi>
+        <mtd columnalign="center">
+          <mi>x</mi>
         </mtd>
-       </mtr>
-       <mtr>
-        <mtd>
-         <mi>e</mi>
+        <mtd columnalign="center">
+          <mi>s</mi>
         </mtd>
-       </mtr>
-      </mtable>
-
-     </mtd>
-    </mtr>
-    <mtr>
-     <mtd>
-      <mtable columnalign='left'>
-       <mtr>
-        <mtd>
-         <mi>a</mi>
+      </mtr>
+    </mtable>
+    <mo>+</mo>
+    <mtable columnalign="right">
+      <mtr columnalign="right">
+        <mtd columnalign="right">
+          <mi>a</mi>
+          <mo>+</mo>
+          <mi>b</mi>
         </mtd>
-       </mtr>
-       <mtr>
-        <mtd>
-         <mi>b</mi>
+        <mtd columnalign="right">
+          <mi>c</mi>
+          <mo>+</mo>
+          <mi>d</mi>
         </mtd>
-       </mtr>
-      </mtable>
-
-     </mtd>
-     <mtd>
-      <mtable columnalign='left'>
-       <mtr>
-        <mtd>
-         <mi>c</mi>
+        <mtd columnalign="right">
+          <mi>w</mi>
         </mtd>
-       </mtr>
-       <mtr>
-        <mtd>
-         <mi>d</mi>
+      </mtr>
+      <mtr columnalign="right">
+        <mtd columnalign="right">
+          <mi>c</mi>
+          <mo>+</mo>
+          <mn>2</mn>
         </mtd>
-       </mtr>
-      </mtable>
-
-     </mtd>
-     <mtd>
-      <mtable columnalign='left'>
-       <mtr>
-        <mtd>
-         <mi>e</mi>
+        <mtd columnalign="right">
+          <mi>e</mi>
         </mtd>
-       </mtr>
-       <mtr>
-        <mtd>
-         <mi>f</mi>
+        <mtd columnalign="right">
+          <mi>e</mi>
+          <mo>+</mo>
+          <mn>3</mn>
         </mtd>
-       </mtr>
-      </mtable>
-
-     </mtd>
-    </mtr>
-    <mtr>
-     <mtd>
-      <mi>x</mi>
-     </mtd>
-     <mtd>
-      <mi>y</mi>
-     </mtd>
-     <mtd>
-      <mi>z</mi>
-     </mtd>
-    </mtr>
-
-   </mtable><mo>+</mo><mtable>
-    <mtr>
-     <mtd>
-      <mrow>
-       <mi>a</mi><mo>+</mo><mi>b</mi></mrow>
-     </mtd>
-     <mtd>
-      <mi>d</mi>
-     </mtd>
-     <mtd>
-      <mrow>
-       <mn>3</mn><mi>e</mi></mrow>
-     </mtd>
-    </mtr>
-    <mtr>
-     <mtd>
-      <mrow>
-       <mi>v</mi><mo>&#x2212;</mo><mn>2</mn></mrow>
-     </mtd>
-     <mtd>
-      <mrow>
-       <mi>r</mi><mo>+</mo><mi>l</mi></mrow>
-     </mtd>
-     <mtd>
-      <mrow>
-       <mi>d</mi><mi>b</mi><mo>+</mo><mn>3</mn></mrow>
-     </mtd>
-    </mtr>
-    <mtr>
-     <mtd>
-      <mi>x</mi>
-     </mtd>
-     <mtd>
-      <mi>x</mi>
-     </mtd>
-     <mtd>
-      <mi>s</mi>
-     </mtd>
-    </mtr>
-
-   </mtable><mo>+</mo><mtable columnalign='right'>
-    <mtr columnalign='right'>
-     <mtd columnalign='right'>
-      <mrow>
-       <mi>a</mi><mo>+</mo><mi>b</mi></mrow>
-     </mtd>
-     <mtd columnalign='right'>
-      <mrow>
-       <mi>c</mi><mo>+</mo><mi>d</mi></mrow>
-     </mtd>
-     <mtd columnalign='right'>
-      <mi>w</mi>
-     </mtd>
-    </mtr>
-    <mtr columnalign='right'>
-     <mtd columnalign='right'>
-      <mrow>
-       <mi>c</mi><mo>+</mo><mn>2</mn></mrow>
-     </mtd>
-     <mtd columnalign='right'>
-      <mi>e</mi>
-     </mtd>
-     <mtd columnalign='right'>
-      <mrow>
-       <mi>e</mi><mo>+</mo><mn>3</mn></mrow>
-     </mtd>
-    </mtr>
-    <mtr columnalign='right'>
-     <mtd columnalign='right'>
-      <mi>e</mi>
-     </mtd>
-     <mtd columnalign='right'>
-      <mi>w</mi>
-     </mtd>
-     <mtd columnalign='right'>
-      <mi>x</mi>
-     </mtd>
-    </mtr>
-
-   </mtable></mrow>
-  <annotation encoding='MathType-MTEF'>MathType@MTEF@5@5@+=faaagCart1ev2aqaKnaaaaWenf2ys9wBH5garuavP1wzZbItLDhis9wBH5garmWu51MyVXgaruWqVvNCPvMCG4uz3bqee0evGueE0jxyaibaieYlf9irVeeu0dXdh9vqqj=hHeeu0xXdbba9frFj0=OqFfea0dXdd9vqaq=JfrVkFHe9pgea0dXdar=Jb9hs0dXdbPYxe9vr0=vr0=vqpi0dc9GqpWqaaeaabiGaciaacaqabeaadaqaaqaaaOqaauaabeqadmaaaqaabeqaaiaadsgaaeaacaWGNbaabaGaamOyaaqaaiaadggaaeaacaWGIbaabaGaam4yaaaaeaqabeaacaWGKbaabaGaamOyaaqaaiaadsgaaeaacaWGHbaabaGaamOyaaqaaiaadogaaaabaeqabaGaam4yaaqaaiaadkgaaeaacaWGKbaabaGaamizaaqaaiaadkgaaeaacaWGLbaaaqaabeqaaiaadggaaeaacaWGIbaaaqaabeqaaiaadogaaeaacaWGKbaaaqaabeqaaiaadwgaaeaacaWGMbaaaeaacaWG4baabaGaamyEaaqaaiaadQhaaaGaey4kaSsbaeqabmWaaaqaaiaadggacqGHRaWkcaWGIbaabaGaamizaaqaaiaaiodacaWGLbaabaGaamODaiabgkHiTiaaikdaaeaacaWGYbGaey4kaSIaamiBaaqaaiaadsgacaWGIbGaey4kaSIaaG4maaqaaiaadIhaaeaacaWG4baabaGaam4CaaaacqGHRaWkfaqaceWadaaabaGaamyyaiabgUcaRiaadkgaaeaacaWGJbGaey4kaSIaamizaaqaaiaadEhaaeaacaWGJbGaey4kaSIaaGOmaaqaaiaadwgaaeaacaWGLbGaey4kaSIaaG4maaqaaiaadwgaaeaacaWG3baabaGaamiEaaaaaaa@6E11@</annotation>
- </semantics>
+      </mtr>
+      <mtr columnalign="right">
+        <mtd columnalign="right">
+          <mi>e</mi>
+        </mtd>
+        <mtd columnalign="right">
+          <mi>w</mi>
+        </mtd>
+        <mtd columnalign="right">
+          <mi>x</mi>
+        </mtd>
+      </mtr>
+    </mtable>
+  </mrow>
 </math>

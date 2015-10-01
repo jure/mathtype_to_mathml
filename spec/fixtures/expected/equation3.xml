@@ -6,12 +6,12 @@
         <mo>&#x2211;</mo>
         <mrow>
           <mi>b</mi>
-          <mo>&#x003D;</mo>
+          <mo>=</mo>
           <mn>4</mn>
         </mrow>
         <mrow>
           <mi>i</mi>
-          <mo>&#x003D;</mo>
+          <mo>=</mo>
           <mn>3</mn>
         </mrow>
       </munderover>
@@ -22,7 +22,7 @@
             <mo>&#x2229;</mo>
             <mrow>
               <mi>i</mi>
-              <mo>&#x003D;</mo>
+              <mo>=</mo>
               <mn>1</mn>
             </mrow>
             <mrow>
@@ -55,8 +55,8 @@
                     <mo>&#x2202;</mo>
                     <mo>&#x2192;</mo>
                     <mo>&#x2192;</mo>
-                    <mi>&#x3B8;</mi>
-                    <mi>&#x3C0;</mi>
+                    <mi>&#x03B8;</mi>
+                    <mi>&#x03C0;</mi>
                     <mrow>
                       <mo>&#x2329;</mo>
                       <mrow>
@@ -82,9 +82,9 @@
     <mrow>
       <mo>(</mo>
       <mrow>
-        <mtable columnalign="left">
-          <mtr columnalign="left">
-            <mtd columnalign="left">
+        <mtable>
+          <mtr columnalign="center">
+            <mtd columnalign="center">
               <msub>
                 <mrow>
                   <mi>a</mi>
@@ -95,10 +95,10 @@
                 </mrow>
               </msub>
             </mtd>
-            <mtd columnalign="left">
+            <mtd columnalign="center">
               <mo>&#x2026;</mo>
             </mtd>
-            <mtd columnalign="left">
+            <mtd columnalign="center">
               <msub>
                 <mrow>
                   <mi>a</mi>
@@ -110,19 +110,19 @@
               </msub>
             </mtd>
           </mtr>
-          <mtr columnalign="left">
-            <mtd columnalign="left">
+          <mtr columnalign="center">
+            <mtd columnalign="center">
               <mo>&#x22EE;</mo>
             </mtd>
-            <mtd columnalign="left">
+            <mtd columnalign="center">
               <mo>&#x22F1;</mo>
             </mtd>
-            <mtd columnalign="left">
+            <mtd columnalign="center">
               <mo>&#x22EE;</mo>
             </mtd>
           </mtr>
-          <mtr columnalign="left">
-            <mtd columnalign="left">
+          <mtr columnalign="center">
+            <mtd columnalign="center">
               <msub>
                 <mrow>
                   <mi>a</mi>
@@ -133,10 +133,10 @@
                 </mrow>
               </msub>
             </mtd>
-            <mtd columnalign="left">
+            <mtd columnalign="center">
               <mo>&#x22EF;</mo>
             </mtd>
-            <mtd columnalign="left">
+            <mtd columnalign="center">
               <msub>
                 <mrow>
                   <mi>a</mi>
@@ -155,9 +155,9 @@
     <mrow>
       <mo>(</mo>
       <mrow>
-        <mtable columnalign="left">
-          <mtr columnalign="left">
-            <mtd columnalign="left">
+        <mtable>
+          <mtr columnalign="center">
+            <mtd columnalign="center">
               <msub>
                 <mrow>
                   <mi>a</mi>
@@ -168,7 +168,7 @@
                 </mrow>
               </msub>
             </mtd>
-            <mtd columnalign="left">
+            <mtd columnalign="center">
               <msub>
                 <mrow>
                   <mi>a</mi>
@@ -179,7 +179,7 @@
                 </mrow>
               </msub>
             </mtd>
-            <mtd columnalign="left">
+            <mtd columnalign="center">
               <msub>
                 <mrow>
                   <mi>a</mi>
@@ -191,8 +191,8 @@
               </msub>
             </mtd>
           </mtr>
-          <mtr columnalign="left">
-            <mtd columnalign="left">
+          <mtr columnalign="center">
+            <mtd columnalign="center">
               <msub>
                 <mrow>
                   <mi>a</mi>
@@ -203,7 +203,7 @@
                 </mrow>
               </msub>
             </mtd>
-            <mtd columnalign="left">
+            <mtd columnalign="center">
               <msub>
                 <mrow>
                   <mi>a</mi>
@@ -214,7 +214,7 @@
                 </mrow>
               </msub>
             </mtd>
-            <mtd columnalign="left">
+            <mtd columnalign="center">
               <msub>
                 <mrow>
                   <mi>a</mi>
@@ -226,8 +226,8 @@
               </msub>
             </mtd>
           </mtr>
-          <mtr columnalign="left">
-            <mtd columnalign="left">
+          <mtr columnalign="center">
+            <mtd columnalign="center">
               <msub>
                 <mrow>
                   <mi>a</mi>
@@ -238,7 +238,7 @@
                 </mrow>
               </msub>
             </mtd>
-            <mtd columnalign="left">
+            <mtd columnalign="center">
               <msub>
                 <mrow>
                   <mi>a</mi>
@@ -249,7 +249,7 @@
                 </mrow>
               </msub>
             </mtd>
-            <mtd columnalign="left">
+            <mtd columnalign="center">
               <msub>
                 <mrow>
                   <mi>a</mi>
@@ -268,9 +268,9 @@
     <mrow>
       <mo>(</mo>
       <mrow>
-        <mtable columnalign="left">
-          <mtr columnalign="left">
-            <mtd columnalign="left">
+        <mtable>
+          <mtr columnalign="center">
+            <mtd columnalign="center">
               <msub>
                 <mrow>
                   <mi>a</mi>
@@ -280,32 +280,32 @@
                 </mrow>
               </msub>
             </mtd>
-            <mtd columnalign="left">
+            <mtd columnalign="center">
               <mn>1</mn>
             </mtd>
-            <mtd columnalign="left">
+            <mtd columnalign="center">
               <mn>0</mn>
             </mtd>
           </mtr>
-          <mtr columnalign="left">
-            <mtd columnalign="left">
+          <mtr columnalign="center">
+            <mtd columnalign="center">
               <mn>4</mn>
             </mtd>
-            <mtd columnalign="left">
+            <mtd columnalign="center">
               <mo>&#x22F1;</mo>
             </mtd>
-            <mtd columnalign="left">
+            <mtd columnalign="center">
               <mn>2</mn>
             </mtd>
           </mtr>
-          <mtr columnalign="left">
-            <mtd columnalign="left">
+          <mtr columnalign="center">
+            <mtd columnalign="center">
               <mn>0</mn>
             </mtd>
-            <mtd columnalign="left">
+            <mtd columnalign="center">
               <mn>3</mn>
             </mtd>
-            <mtd columnalign="left">
+            <mtd columnalign="center">
               <msub>
                 <mrow>
                   <mi>a</mi>

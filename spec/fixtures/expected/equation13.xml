@@ -3,30 +3,30 @@
   <mrow>
     <msup>
       <mrow>
-        <mn>&#x0028;</mn>
+        <mo stretchy="false">(</mo>
         <mi>a</mi>
-        <mo>&#x002B;</mo>
+        <mo>+</mo>
         <mi>b</mi>
-        <mn>&#x0029;</mn>
+        <mo stretchy="false">)</mo>
       </mrow>
       <mrow>
         <mi>c</mi>
       </mrow>
     </msup>
-    <mo>&#x002B;</mo>
+    <mo>+</mo>
     <msup>
       <mrow>
-        <mn>&#x005B;</mn>
+        <mo stretchy="false">[</mo>
         <mi>d</mi>
-        <mo>&#x002B;</mo>
+        <mo>+</mo>
         <mi>f</mi>
-        <mn>&#x005D;</mn>
+        <mo stretchy="false">]</mo>
       </mrow>
       <mrow>
         <mn>4</mn>
       </mrow>
     </msup>
-    <mo>&#x002B;</mo>
+    <mo>+</mo>
     <mmultiscripts>
       <mrow>
         <mi>c</mi>
@@ -39,7 +39,7 @@
         <mi>a</mi>
       </mrow>
     </mmultiscripts>
-    <mo>&#x002B;</mo>
+    <mo>+</mo>
     <mmultiscripts>
       <mrow>
         <mi>f</mi>
@@ -52,7 +52,7 @@
         <mi>d</mi>
       </mrow>
     </mmultiscripts>
-    <mo>&#x002B;</mo>
+    <mo>+</mo>
     <msup>
       <mrow>
         <mrow>
@@ -69,7 +69,7 @@
         <mi>i</mi>
       </mrow>
     </msup>
-    <mo>&#x002B;</mo>
+    <mo>+</mo>
     <msub>
       <mrow>
         <mi>j</mi>
@@ -78,7 +78,7 @@
         <mi>k</mi>
       </mrow>
     </msub>
-    <mo>&#x002B;</mo>
+    <mo>+</mo>
     <mmultiscripts>
       <mrow>
         <mi>m</mi>
@@ -89,7 +89,7 @@
       </mrow>
       <none/>
     </mmultiscripts>
-    <mo>&#x002B;</mo>
+    <mo>+</mo>
     <mmultiscripts>
       <mrow>
         <mi>o</mi>
@@ -100,7 +100,7 @@
         <mi>n</mi>
       </mrow>
     </mmultiscripts>
-    <mo>&#x002B;</mo>
+    <mo>+</mo>
     <msup>
       <mrow>
         <mi>p</mi>

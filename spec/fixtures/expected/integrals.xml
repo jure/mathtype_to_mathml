@@ -1,264 +1,370 @@
-<math display='block'>
- <semantics>
-  <mtable columnalign='left'>
-   <mtr>
-    <mtd>
-     <mstyle displaystyle='true'>
-      <mrow><mo>&#x222B;</mo>
-       <mrow>
-        <mi>a</mi><mo>+</mo><mstyle displaystyle='true'>
-         <mrow><munderover>
-          <mo>&#x222B;</mo>
-          <mi>c</mi>
-          <mi>a</mi>
-         </munderover>
-         <mrow>
-          <mi>b</mi><mo>+</mo></mrow>
-        </mrow>
-
-       </mstyle></mrow>
-     </mrow>
-
-    </mstyle><mstyle displaystyle='true'>
-     <mrow>
-      <msubsup>
-       <mo>&#x222B;</mo>
-       <mi>c</mi>
-       <mi>a</mi>
-      </msubsup>
-      <mrow>
-       <mi>b</mi><mo>+</mo></mrow>
-     </mrow>
-
-    </mstyle><mstyle displaystyle='true'>
-     <mrow><mo>&#x222B;</mo>
-      <mrow>
-       <mi>a</mi><mo>+</mo><mstyle displaystyle='true'>
+<?xml version="1.0"?>
+<math display="block">
+  <mtable columnalign="left">
+    <mtr>
+      <mtd>
         <mrow>
-         <munder>
-          <mo>&#x222B;</mo>
-          <mi>b</mi>
-         </munder>
-         <mi>a</mi>
+          <mstyle displaystyle="true">
+            <mrow>
+              <mo>&#x222B;</mo>
+              <mrow>
+                <mi>a</mi>
+                <mo>+</mo>
+                <mstyle displaystyle="true">
+                  <mrow>
+                    <munderover>
+                      <mo>&#x222B;</mo>
+                      <mrow>
+                        <mi>c</mi>
+                      </mrow>
+                      <mrow>
+                        <mi>a</mi>
+                      </mrow>
+                    </munderover>
+                    <mrow>
+                      <mi>b</mi>
+                      <mo>+</mo>
+                    </mrow>
+                  </mrow>
+                </mstyle>
+              </mrow>
+            </mrow>
+          </mstyle>
+          <mstyle displaystyle="true">
+            <mrow>
+              <msubsup>
+                <mo>&#x222B;</mo>
+                <mrow>
+                  <mi>c</mi>
+                </mrow>
+                <mrow>
+                  <mi>a</mi>
+                </mrow>
+              </msubsup>
+              <mrow>
+                <mi>b</mi>
+                <mo>+</mo>
+              </mrow>
+            </mrow>
+          </mstyle>
+          <mstyle displaystyle="true">
+            <mrow>
+              <mo>&#x222B;</mo>
+              <mrow>
+                <mi>a</mi>
+                <mo>+</mo>
+                <mstyle displaystyle="true">
+                  <mrow>
+                    <munder>
+                      <mo>&#x222B;</mo>
+                      <mrow>
+                        <mi>b</mi>
+                      </mrow>
+                    </munder>
+                    <mrow>
+                      <mi>a</mi>
+                    </mrow>
+                  </mrow>
+                </mstyle>
+              </mrow>
+            </mrow>
+          </mstyle>
         </mrow>
-
-       </mstyle></mrow>
-     </mrow>
-
-    </mstyle>
-   </mtd>
-  </mtr>
-  <mtr>
-   <mtd>
-    <mstyle displaystyle='true'>
-     <mrow><mo>&#x222C;</mo>
-      <mrow>
-       <mi>a</mi><mo>+</mo><mstyle displaystyle='true'>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
         <mrow>
-         <munder>
-          <mo>&#x222C;</mo>
-          <mi>b</mi>
-         </munder>
-         <mrow>
-          <mi>a</mi><mo>+</mo></mrow>
+          <mstyle displaystyle="true">
+            <mrow>
+              <mo>&#x222C;</mo>
+              <mrow>
+                <mi>a</mi>
+                <mo>+</mo>
+                <mstyle displaystyle="true">
+                  <mrow>
+                    <munder>
+                      <mo>&#x222C;</mo>
+                      <mrow>
+                        <mi>b</mi>
+                      </mrow>
+                    </munder>
+                    <mrow>
+                      <mi>a</mi>
+                      <mo>+</mo>
+                    </mrow>
+                  </mrow>
+                </mstyle>
+              </mrow>
+            </mrow>
+          </mstyle>
+          <mstyle displaystyle="true">
+            <mrow>
+              <msub>
+                <mo>&#x222C;</mo>
+                <mrow>
+                  <mi>b</mi>
+                </mrow>
+              </msub>
+              <mrow>
+                <mi>a</mi>
+              </mrow>
+            </mrow>
+          </mstyle>
         </mrow>
-
-       </mstyle></mrow>
-     </mrow>
-
-    </mstyle><mstyle displaystyle='true'>
-     <mrow>
-      <msub>
-       <mo>&#x222C;</mo>
-       <mi>b</mi>
-      </msub>
-      <mi>a</mi>
-     </mrow>
-
-    </mstyle>
-   </mtd>
-  </mtr>
-  <mtr>
-   <mtd>
-    <mstyle displaystyle='true'>
-     <mrow>
-      <mo>&#x222D;</mo>
-      <mrow>
-       <mi>a</mi><mo>+</mo><mstyle displaystyle='true'>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
         <mrow>
-         <munder>
-          <mo>&#x222D;</mo>
-          <mi>b</mi>
-         </munder>
-         <mrow>
-          <mi>a</mi><mo>+</mo></mrow>
+          <mstyle displaystyle="true">
+            <mrow>
+              <mo>&#x222D;</mo>
+              <mrow>
+                <mi>a</mi>
+                <mo>+</mo>
+                <mstyle displaystyle="true">
+                  <mrow>
+                    <munder>
+                      <mo>&#x222D;</mo>
+                      <mrow>
+                        <mi>b</mi>
+                      </mrow>
+                    </munder>
+                    <mrow>
+                      <mi>a</mi>
+                      <mo>+</mo>
+                    </mrow>
+                  </mrow>
+                </mstyle>
+              </mrow>
+            </mrow>
+          </mstyle>
+          <mstyle displaystyle="true">
+            <mrow>
+              <msub>
+                <mo>&#x222D;</mo>
+                <mrow>
+                  <mi>b</mi>
+                </mrow>
+              </msub>
+              <mrow>
+                <mi>a</mi>
+              </mrow>
+            </mrow>
+          </mstyle>
         </mrow>
-
-       </mstyle></mrow>
-     </mrow>
-
-    </mstyle><mstyle displaystyle='true'>
-     <mrow>
-      <msub>
-       <mo>&#x222D;</mo>
-       <mi>b</mi>
-      </msub>
-      <mi>a</mi>
-     </mrow>
-
-    </mstyle>
-   </mtd>
-  </mtr>
-  <mtr>
-   <mtd>
-    <mstyle displaystyle='true'>
-     <mrow><mo>&#x222E;</mo>
-      <mrow>
-       <mi>a</mi><mo>+</mo></mrow>
-     </mrow>
-
-    </mstyle><mstyle displaystyle='true'>
-     <mrow>
-      <munder>
-       <mo>&#x222E;</mo>
-       <mi>b</mi>
-      </munder>
-      <mrow>
-       <mi>a</mi><mo>+</mo></mrow>
-     </mrow>
-
-    </mstyle><mstyle displaystyle='true'>
-     <mrow>
-      <msub>
-       <mo>&#x222E;</mo>
-       <mi>b</mi>
-      </msub>
-      <mi>a</mi>
-     </mrow>
-
-    </mstyle>
-   </mtd>
-  </mtr>
-  <mtr>
-   <mtd>
-    <mstyle displaystyle='true'>
-     <mrow><mo>&#x222F;</mo>
-      <mrow>
-       <mi>a</mi><mo>+</mo><mstyle displaystyle='true'>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
         <mrow>
-         <munder>
-          <mo>&#x222F;</mo>
-          <mi>b</mi>
-         </munder>
-         <mi>a</mi>
+          <mstyle displaystyle="true">
+            <mrow>
+              <mo>&#x222E;</mo>
+              <mrow>
+                <mi>a</mi>
+                <mo>+</mo>
+              </mrow>
+            </mrow>
+          </mstyle>
+          <mstyle displaystyle="true">
+            <mrow>
+              <munder>
+                <mo>&#x222E;</mo>
+                <mrow>
+                  <mi>b</mi>
+                </mrow>
+              </munder>
+              <mrow>
+                <mi>a</mi>
+                <mo>+</mo>
+              </mrow>
+            </mrow>
+          </mstyle>
+          <mstyle displaystyle="true">
+            <mrow>
+              <msub>
+                <mo>&#x222E;</mo>
+                <mrow>
+                  <mi>b</mi>
+                </mrow>
+              </msub>
+              <mrow>
+                <mi>a</mi>
+              </mrow>
+            </mrow>
+          </mstyle>
         </mrow>
-
-       </mstyle></mrow>
-     </mrow>
-    </mstyle><mo>+</mo><mstyle displaystyle='true'>
-     <mrow>
-      <msub>
-       <mo>&#x222F;</mo>
-       <mi>b</mi>
-      </msub>
-      <mi>a</mi>
-     </mrow>
-
-    </mstyle>
-   </mtd>
-  </mtr>
-  <mtr>
-   <mtd>
-    <mstyle displaystyle='true'>
-     <mrow>
-      <mo>&#x2230;</mo>
-      <mrow>
-       <mi>a</mi><mo>+</mo><mstyle displaystyle='true'>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
         <mrow>
-         <munder>
-          <mo>&#x2230;</mo>
-          <mi>b</mi>
-         </munder>
-         <mi>a</mi>
+          <mstyle displaystyle="true">
+            <mrow>
+              <mo>&#x222F;</mo>
+              <mrow>
+                <mi>a</mi>
+                <mo>+</mo>
+                <mstyle displaystyle="true">
+                  <mrow>
+                    <munder>
+                      <mo>&#x222F;</mo>
+                      <mrow>
+                        <mi>b</mi>
+                      </mrow>
+                    </munder>
+                    <mrow>
+                      <mi>a</mi>
+                    </mrow>
+                  </mrow>
+                </mstyle>
+              </mrow>
+            </mrow>
+          </mstyle>
+          <mo>+</mo>
+          <mstyle displaystyle="true">
+            <mrow>
+              <msub>
+                <mo>&#x222F;</mo>
+                <mrow>
+                  <mi>b</mi>
+                </mrow>
+              </msub>
+              <mrow>
+                <mi>a</mi>
+              </mrow>
+            </mrow>
+          </mstyle>
         </mrow>
-
-       </mstyle></mrow>
-     </mrow>
-
-    </mstyle><mo>+</mo><mstyle displaystyle='true'>
-     <mrow>
-      <msub>
-       <mo>&#x2230;</mo>
-       <mi>b</mi>
-      </msub>
-      <mi>a</mi>
-     </mrow>
-
-    </mstyle>
-   </mtd>
-  </mtr>
-  <mtr>
-   <mtd>
-    <mstyle displaystyle='true'>
-     <mrow>
-      <mo>&#x2233;</mo>
-      <mrow>
-       <mi>a</mi><mo>+</mo><mstyle displaystyle='true'>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
         <mrow>
-         <munder>
-          <mo>&#x2233;</mo>
-          <mi>b</mi>
-         </munder>
-         <mrow>
-          <mi>a</mi><mo>+</mo><mstyle displaystyle='true'>
-           <mrow>
-            <msub>
-             <mo>&#x2233;</mo>
-             <mi>b</mi>
-            </msub>
-            <mi>a</mi>
-           </mrow>
-
-          </mstyle></mrow>
+          <mstyle displaystyle="true">
+            <mrow>
+              <mo>&#x2230;</mo>
+              <mrow>
+                <mi>a</mi>
+                <mo>+</mo>
+                <mstyle displaystyle="true">
+                  <mrow>
+                    <munder>
+                      <mo>&#x2230;</mo>
+                      <mrow>
+                        <mi>b</mi>
+                      </mrow>
+                    </munder>
+                    <mrow>
+                      <mi>a</mi>
+                    </mrow>
+                  </mrow>
+                </mstyle>
+              </mrow>
+            </mrow>
+          </mstyle>
+          <mo>+</mo>
+          <mstyle displaystyle="true">
+            <mrow>
+              <msub>
+                <mo>&#x2230;</mo>
+                <mrow>
+                  <mi>b</mi>
+                </mrow>
+              </msub>
+              <mrow>
+                <mi>a</mi>
+              </mrow>
+            </mrow>
+          </mstyle>
         </mrow>
-
-       </mstyle></mrow>
-     </mrow>
-
-    </mstyle><mo>+</mo><mstyle displaystyle='true'>
-     <mrow>
-      <mo>&#x2232;</mo>
-      <mi>a</mi>
-     </mrow>
-
-    </mstyle>
-   </mtd>
-  </mtr>
-  <mtr>
-   <mtd>
-    <mstyle displaystyle='true'>
-     <mrow>
-      <munder>
-       <mo>&#x2232;</mo>
-       <mi>b</mi>
-      </munder>
-      <mi>a</mi>
-     </mrow>
-
-    </mstyle><mo>+</mo><mstyle displaystyle='true'>
-     <mrow>
-      <msub>
-       <mo>&#x2232;</mo>
-       <mi>b</mi>
-      </msub>
-      <mi>a</mi>
-     </mrow>
-
-    </mstyle>
-   </mtd>
-  </mtr>
- </mtable>
-
- <annotation encoding='MathType-MTEF'>MathType@MTEF@5@5@+=faaagCart1ev2aaaKnaaaaWenf2ys9wBH5garuavP1wzZbItLDhis9wBH5garmWu51MyVXgaruWqVvNCPvMCG4uz3bqee0evGueE0jxyaibaieYlf9irVeeu0dXdh9vqqj=hHeeu0xXdbba9frFj0=OqFfea0dXdd9vqaq=JfrVkFHe9pgea0dXdar=Jb9hs0dXdbPYxe9vr0=vr0=vqpi0dc9GqpWqaaeaabiGaciaacaqabeaadaqaaqaaaOabaeqabaWaa8qaaeaacaWGHbGaey4kaSYaa8qCaeaacaWGIbGaey4kaScaleaacaWGJbaabaGaamyyaaqdcqGHRiI8aaWcbeqab0Gaey4kIipakmaapedabaGaamOyaiabgUcaRaWcbaGaam4yaaqaaiaadggaa0Gaey4kIipakmaapeaabaGaamyyaiabgUcaRmaapefabaGaamyyaaWcbaGaamOyaaqab0Gaey4kIipaaSqabeqaniabgUIiYdaakeaadaWdcaqaaiaadggacqGHRaWkdaWdsbqaaiaadggacqGHRaWkaSqaaiaadkgaaeqaniabgUIiYlabgUIiYdaaleqabeqdcqGHRiI8cqGHRiI8aOWaa8GeaeaacaWGHbaaleaacaWGIbaabeqdcqGHRiI8cqGHRiI8aaGcbaWaa8WaaeaacaWGHbGaey4kaSYaa8WuaeaacaWGHbGaey4kaScaleaacaWGIbaabeqdcqGHRiI8cqGHRiI8cqGHRiI8aaWcbeqab0Gaey4kIiVaey4kIiVaey4kIipakmaapmbabaGaamyyaaWcbaGaamOyaaqab0Gaey4kIiVaey4kIiVaey4kIipaaOqaamaapuaabaGaamyyaiabgUcaRaWcbeqab0GaeSyeUhTaey4kIipakmaapufabaGaamyyaiabgUcaRaWcbaGaamOyaaqab0GaeSyeUhTaey4kIipakmaapubabaGaamyyaaWcbaGaamOyaaqab0GaeSyeUhTaey4kIipaaOqaamaapyaabaGaamyyaiabgUcaRmaapyfabaGaamyyaaWcbaGaamOyaaqab0GaeSOeUlTaey4kIiVaey4kIipaaSqabeqaniablkH7slabgUIiYlabgUIiYdGccqGHRaWkdaWdwaqaaiaadggaaSqaaiaadkgaaeqaniablkH7slabgUIiYlabgUIiYdaakeaadaWdhaqaaiaadggacqGHRaWkdaWdxbqaaiaadggaaSqaaiaadkgaaeqaniabloH7tlabgUIiYlabgUIiYlabgUIiYdaaleqabeqdcqWIt4+0cqGHRiI8cqGHRiI8cqGHRiI8aOGaey4kaSYaa8WfaeaacaWGHbaaleaacaWGIbaabeqdcqWIt4+0cqGHRiI8cqGHRiI8cqGHRiI8aaGcbaWaa8qdaeaacaWGHbGaey4kaSYaa8qxaeaacaWGHbGaey4kaSYaa8qhaeaacaWGHbaaleaacaWGIbaabeqdcqWIa4EAcqGHRiI8aaWcbaGaamOyaaqab0GaeSiaUNMaey4kIipaaSqabeqaniablcG7PjabgUIiYdGccqGHRaWkdaWdjaqaaiaadggaaSqabeqaniablgG7QjabgUIiYdaakeaadaWdzbqaaiaadggaaSqaaiaadkgaaeqaniablgG7QjabgUIiYdGccqGHRaWkdaWdzaqaaiaadggaaSqaaiaadkgaaeqaniablgG7QjabgUIiYdaaaaa@E48C@</annotation>
-</semantics>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow>
+          <mstyle displaystyle="true">
+            <mrow>
+              <mo>&#x2233;</mo>
+              <mrow>
+                <mi>a</mi>
+                <mo>+</mo>
+                <mstyle displaystyle="true">
+                  <mrow>
+                    <munder>
+                      <mo>&#x2233;</mo>
+                      <mrow>
+                        <mi>b</mi>
+                      </mrow>
+                    </munder>
+                    <mrow>
+                      <mi>a</mi>
+                      <mo>+</mo>
+                      <mstyle displaystyle="true">
+                        <mrow>
+                          <msub>
+                            <mo>&#x2233;</mo>
+                            <mrow>
+                              <mi>b</mi>
+                            </mrow>
+                          </msub>
+                          <mrow>
+                            <mi>a</mi>
+                          </mrow>
+                        </mrow>
+                      </mstyle>
+                    </mrow>
+                  </mrow>
+                </mstyle>
+              </mrow>
+            </mrow>
+          </mstyle>
+          <mo>+</mo>
+          <mstyle displaystyle="true">
+            <mrow>
+              <mo>&#x2232;</mo>
+              <mrow>
+                <mi>a</mi>
+              </mrow>
+            </mrow>
+          </mstyle>
+        </mrow>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow>
+          <mstyle displaystyle="true">
+            <mrow>
+              <munder>
+                <mo>&#x2232;</mo>
+                <mrow>
+                  <mi>b</mi>
+                </mrow>
+              </munder>
+              <mrow>
+                <mi>a</mi>
+              </mrow>
+            </mrow>
+          </mstyle>
+          <mo>+</mo>
+          <mstyle displaystyle="true">
+            <mrow>
+              <msub>
+                <mo>&#x2232;</mo>
+                <mrow>
+                  <mi>b</mi>
+                </mrow>
+              </msub>
+              <mrow>
+                <mi>a</mi>
+              </mrow>
+            </mrow>
+          </mstyle>
+        </mrow>
+      </mtd>
+    </mtr>
+  </mtable>
 </math>

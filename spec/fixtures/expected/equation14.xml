@@ -1,54 +1,112 @@
-<math display='block'>
- <semantics>
+<?xml version="1.0"?>
+<math display="block">
   <mrow>
-   <msup>
+    <mi>c</mi>
+    <mi>o</mi>
+    <msup>
+      <mrow>
+        <mi>s</mi>
+      </mrow>
+      <mrow>
+        <mo>&#x2212;</mo>
+        <mn>1</mn>
+      </mrow>
+    </msup>
+    <mi>&#x03B8;</mi>
     <mrow>
-     <mi>cos</mi></mrow>
-    <mrow>
-     <mo>&#x2212;</mo><mn>1</mn></mrow>
-   </msup>
-   <mi>&#x03B8;</mi><mrow><mo>(</mo>
-    <mrow>
-     <mfrac>
-      <mi>&#x03C0;</mi>
-      <mn>2</mn>
-     </mfrac>
-     <mo>&#x2212;</mo><mi>&#x03B8;</mi></mrow>
-   <mo>)</mo></mrow><msup>
-    <mi>e</mi>
-    <mrow>
-     <mi>i</mi><mi>&#x03B8;</mi></mrow>
-   </msup>
-   <mi>arcsin</mi><mi>&#x03B8;</mi><mi mathvariant='fraktur'>M</mi><mi>&#x221E;</mi><mi>&#x2124;</mi><mi mathvariant='fraktur'>A</mi><mi>&#x0398;</mi><mi>&#x019B;</mi><mfrac>
-    <mrow>
-     <msup>
-      <mo>&#x2202;</mo>
-      <mn>2</mn>
-     </msup>
-     <mi>&#x03A9;</mi></mrow>
-    <mrow>
-     <mo>&#x2202;</mo><mi>u</mi><mo>&#x2202;</mo><mi>v</mi></mrow>
-   </mfrac>
-   <mrow><mo>[</mo> <mrow>
-    <mn>0,1</mn></mrow> <mo>]</mo></mrow><mstyle displaystyle='true'>
-    <mrow>
-     <munder>
-      <mo>&#x222F;</mo>
-      <mi>d</mi>
-     </munder>
-     <mi>c</mi>
+      <mo>(</mo>
+      <mrow>
+        <mfrac>
+          <mrow>
+            <mi>&#x03C0;</mi>
+          </mrow>
+          <mrow>
+            <mn>2</mn>
+          </mrow>
+        </mfrac>
+        <mo>&#x2212;</mo>
+        <mi>&#x03B8;</mi>
+      </mrow>
+      <mo>)</mo>
     </mrow>
-
-   </mstyle><mstyle displaystyle='true'>
-    <mrow><munderover>
-     <mo>&#x222B;</mo>
-     <mi>v</mi>
-     <mi>d</mi>
-    </munderover>
+    <msup>
+      <mrow>
+        <mi>e</mi>
+      </mrow>
+      <mrow>
+        <mi>i</mi>
+        <mi>&#x03B8;</mi>
+      </mrow>
+    </msup>
     <mi>a</mi>
-   </mrow>
-
-  </mstyle></mrow>
- <annotation encoding='MathType-MTEF'>MathType@MTEF@5@5@+=faaagCart1ev2aaaKnaaaaWenf2ys9wBH5garuavP1wzZbItLDhis9wBH5garmWu51MyVXgaruWqVvNCPvMCG4uz3bqee0evGueE0jxyaibaieYlf9irVeeu0dXdh9vqqj=hHeeu0xXdbba9frFj0=OqFfea0dXdd9vqaq=JfrVkFHe9pgea0dXdar=Jb9hs0dXdbPYxe9vr0=vr0=vqpi0dc9GqpWqaaeaabiGaciaacaqabeaadaqaaqaaaOqaaiGacogacaGGVbGaai4CamaaCaaaleqabaGaeyOeI0IaaGymaaaakiabeI7aXnaabmaabaWaaSaaaeaacqaHapaCaeaacaaIYaaaaiabgkHiTiabeI7aXbGaayjkaiaawMcaaiaadwgadaahaaWcbeqaaiaadMgacqaH4oqCaaGcciGGHbGaaiOCaiaacogacaGGZbGaaiyAaiaac6gacqaH4oqCtuuDJXwAKzKCHTgD1jharyqr1ngBPrgigjxyRrxDYbacfaGae8hdW3KaeyOhIu6efv3ySLgznfgDOjdarCqr1ngBPrginfgDObcv39gaiyqacqGFKeIwcqWFaaFqcqqHyoqucqWIBgardaWcaaqaaiabgkGi2oaaCaaaleqabaGaaGOmaaaakiabgM6axbqaaiabgkGi2kaadwhacqGHciITcaWG2baaamaadmaabaGaaGimaiaacYcacaaIXaaacaGLBbGaayzxaaWaa8GvaeaacaWGJbaaleaacaWGKbaabeqdcqWIs4U0cqGHRiI8cqGHRiI8aOWaa8qCaeaacaWGHbaaleaacaWG2baabaGaamizaaqdcqGHRiI8aaaa@82BE@</annotation>
-</semantics>
+    <mi>r</mi>
+    <mi>c</mi>
+    <mi>s</mi>
+    <mi>i</mi>
+    <mi>n</mi>
+    <mi>&#x03B8;</mi>
+    <mi>&#xF00C;<mi/></mi>
+    <mo>&#x221E;</mo>
+    <mi>&#x2124;</mi>
+    <mi>&#xF000;<mi/></mi>
+    <mi>&#x0398;</mi>
+    <mi>&#x019B;</mi>
+    <mfrac>
+      <mrow>
+        <msup>
+          <mrow>
+            <mo>&#x2202;</mo>
+          </mrow>
+          <mrow>
+            <mn>2</mn>
+          </mrow>
+        </msup>
+        <mo>&#x03A9;</mo>
+      </mrow>
+      <mrow>
+        <mo>&#x2202;</mo>
+        <mi>u</mi>
+        <mo>&#x2202;</mo>
+        <mi>v</mi>
+      </mrow>
+    </mfrac>
+    <mrow>
+      <mo>[</mo>
+      <mrow>
+        <mn>0</mn>
+        <mo>,</mo>
+        <mn>1</mn>
+      </mrow>
+      <mo>]</mo>
+    </mrow>
+    <mstyle displaystyle="true">
+      <mrow>
+        <munder>
+          <mo>&#x222F;</mo>
+          <mrow>
+            <mi>d</mi>
+          </mrow>
+        </munder>
+        <mrow>
+          <mi>c</mi>
+        </mrow>
+      </mrow>
+    </mstyle>
+    <mstyle displaystyle="true">
+      <mrow>
+        <munderover>
+          <mo>&#x222B;</mo>
+          <mrow>
+            <mi>v</mi>
+          </mrow>
+          <mrow>
+            <mi>d</mi>
+          </mrow>
+        </munderover>
+        <mrow>
+          <mi>a</mi>
+        </mrow>
+      </mrow>
+    </mstyle>
+  </mrow>
 </math>
