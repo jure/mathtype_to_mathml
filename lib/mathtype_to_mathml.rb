@@ -22,7 +22,14 @@ module MathTypeToMathML
     end
 
     def convert
-      @xslt.transform(@mathtype).to_s
+      out = @xslt.transform(@mathtype)
+      # This is a hack, but XML namespaces are such a pain to get
+      # right, especially in nokigiri, so... We assume all content is
+      # mathml, remove namespaces & set the root default namespace to
+      # mathml
+      out.remove_namespaces!
+      out.root.default_namespace = 'http://www.w3.org/1998/Math/MathML'
+      out.to_s
     end
 
     def path_to_xslt
