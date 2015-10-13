@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<math display="block">
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mrow>
     <msup>
       <mi>a</mi>
@@ -169,7 +169,7 @@
       <mi>k</mi>
       <mo>&#x21BD;</mo>
     </munder>
-    <mo>&#x002B;</mo>
+    <mo>+</mo>
     <mover accent="true">
       <mo>&#x2210;</mo>
       <mo>&#x2322;</mo>

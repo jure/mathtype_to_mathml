@@ -1,61 +1,30 @@
-<math display='block'>
- <semantics>
-  <mtable columnalign='left'>
-   <mtr>
-    <mtd>
-     <msubsup>
-      <mover accent='true'>
-       <mi>Q</mi>
-       <mo>&#x02D9;</mo>
-      </mover>
-
-      <mrow>
-       <mi>p</mi><mi>r</mi><mi>o</mi><mi>d</mi></mrow>
-      <mrow>
-       <mo>&#x0027;</mo><mo>&#x0027;</mo><mo>&#x0027;</mo></mrow>
-     </msubsup>
-     <mo>=</mo><mtext>&#x00A0;rate&#x00A0;of&#x00A0;internal&#x00A0;heat&#x00A0;generation&#x00A0;per&#x00A0;unit&#x00A0;volume&#x00A0;</mtext><mrow><mo>[</mo> <mrow>
-      <mfrac>
-       <mi>W</mi>
-       <mrow>
-        <msup>
-         <mi>m</mi>
-         <mn>3</mn>
-        </msup>
-        </mrow>
-      </mfrac>
-      </mrow> <mo>]</mo></mrow>
-    </mtd>
-   </mtr>
-   <mtr>
-    <mtd>
-     <mi>&#x03BB;</mi><mtext>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</mtext><mo>=</mo><mtext>&#x00A0;dung&#x00A0;heat&#x00A0;conductivity&#x00A0;</mtext><mrow><mo>[</mo> <mrow>
-      <mfrac>
-       <mi>W</mi>
-       <mrow>
-        <mi>m</mi><mo>&#x22C5;</mo><mi>K</mi></mrow>
-      </mfrac>
-      </mrow> <mo>]</mo></mrow>
-    </mtd>
-   </mtr>
-   <mtr>
-    <mtd>
-     <mi>r</mi><mtext>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</mtext><mo>=</mo><mtext>&#x00A0;radius&#x00A0;</mtext><mrow><mo>[</mo> <mi>m</mi> <mo>]</mo></mrow>
-    </mtd>
-   </mtr>
-   <mtr>
-    <mtd>
-     <mi>L</mi><mtext>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</mtext><mo>=</mo><mtext>&#x00A0;dung&#x00A0;hill&#x00A0;length&#x00A0;</mtext><mrow><mo>[</mo> <mi>m</mi> <mo>]</mo></mrow>
-    </mtd>
-   </mtr>
-   <mtr>
-    <mtd>
-     <mi>T</mi><mtext>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</mtext><mo>=</mo><mtext>&#x00A0;temperature&#x00A0;</mtext><mrow><mo>[</mo> <mrow>
-      <mo>&#x00B0;</mo><mi>C</mi></mrow> <mo>]</mo></mrow>
-    </mtd>
-   </mtr>
+<?xml version="1.0"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mtable columnalign="left">
+    <mtr>
+      <mtd>
+        <mrow><msubsup><mrow><mover accent="true"><mi>Q</mi><mo>&#x2D9;</mo></mover></mrow><mrow><mi>p</mi><mi>r</mi><mi>o</mi><mi>d</mi></mrow><mrow><mo>&#x0027;</mo><mo>&#x0027;</mo><mo>&#x0027;</mo></mrow></msubsup><mo>=</mo>&#x00A0;rate&#x00A0;of&#x00A0;internal&#x00A0;heat&#x00A0;generation&#x00A0;per&#x00A0;unit&#x00A0;volume&#x00A0;<mrow><mo>[</mo><mrow><mfrac><mrow><mi>W</mi></mrow><mrow><msup><mrow><mi>m</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow></mfrac></mrow><mo>]</mo></mrow></mrow>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow><mi>&#x03BB;</mi>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<mo>=</mo>&#x00A0;dung&#x00A0;heat&#x00A0;conductivity&#x00A0;<mrow><mo>[</mo><mrow><mfrac><mrow><mi>W</mi></mrow><mrow><mi>m</mi><mo>&#x22C5;</mo><mi>K</mi></mrow></mfrac></mrow><mo>]</mo></mrow></mrow>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow><mi>r</mi>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<mo>=</mo>&#x00A0;radius&#x00A0;<mrow><mo>[</mo><mrow><mi>m</mi></mrow><mo>]</mo></mrow></mrow>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow><mi>L</mi>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<mo>=</mo>&#x00A0;dung&#x00A0;hill&#x00A0;length&#x00A0;<mrow><mo>[</mo><mrow><mi>m</mi></mrow><mo>]</mo></mrow></mrow>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow><mi>T</mi>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<mo>=</mo>&#x00A0;temperature&#x00A0;<mrow><mo>[</mo><mrow><mo>&#xB0;</mo><mi>C</mi></mrow><mo>]</mo></mrow></mrow>
+      </mtd>
+    </mtr>
   </mtable>
-
-  <annotation encoding='MathType-MTEF'>MathType@MTEF@5@5@+=faaagCart1ev2aaaKnaaaaWenf2ys9wBH5garuavP1wzZbItLDhis9wBH5garmWu51MyVXgaruWqVvNCPvMCG4uz3bqee0evGueE0jxyaibaieYlf9irVeeu0dXdh9vqqj=hHeeu0xXdbba9frFj0=OqFfea0dXdd9vqaq=JfrVkFHe9pgea0dXdar=Jb9hs0dXdbPYxe9vr0=vr0=vqpi0dc9GqpWqaaeaabiGaciaacaqabeaadaqaaqaaaOabaeqabaGabmyuayaacaWaa0baaSqaaiaadchacaWGYbGaam4BaiaadsgaaeaacaGGNaGaai4jaiaacEcaaaGccqGH9aqpcaqGGaGaaeOCaiaabggacaqG0bGaaeyzaiaabccacaqGVbGaaeOzaiaabccacaqGPbGaaeOBaiaabshacaqGLbGaaeOCaiaab6gacaqGHbGaaeiBaiaabccacaqGObGaaeyzaiaabggacaqG0bGaaeiiaiaabEgacaqGLbGaaeOBaiaabwgacaqGYbGaaeyyaiaabshacaqGPbGaae4Baiaab6gacaqGGaGaaeiCaiaabwgacaqGYbGaaeiiaiaabwhacaqGUbGaaeyAaiaabshacaqGGaGaaeODaiaab+gacaqGSbGaaeyDaiaab2gacaqGLbGaaeiiamaadmaabaWaaSaaaeaacaWGxbaabaGaamyBamaaCaaaleqabaGaaG4maaaaaaaakiaawUfacaGLDbaaaeaacqaH7oaBcaqGGaGaaeiiaiaabccacaqGGaGaaeiiaiaabccacqGH9aqpcaqGGaGaaeizaiaabwhacaqGUbGaae4zaiaabccacaqGObGaaeyzaiaabggacaqG0bGaaeiiaiaabogacaqGVbGaaeOBaiaabsgacaqG1bGaae4yaiaabshacaqGPbGaaeODaiaabMgacaqG0bGaaeyEaiaabccadaWadaqaamaalaaabaGaam4vaaqaaiaad2gacqGHflY1caWGlbaaaaGaay5waiaaw2faaaqaaiaadkhacaqGGaGaaeiiaiaabccacaqGGaGaaeiiaiaabccacaqGGaGaeyypa0JaaeiiaiaabkhacaqGHbGaaeizaiaabMgacaqG1bGaae4CaiaabccadaWadaqaaiaad2gaaiaawUfacaGLDbaaaeaacaWGmbGaaeiiaiaabccacaqGGaGaaeiiaiaabccacaqGGaGaeyypa0JaaeiiaiaabsgacaqG1bGaaeOBaiaabEgacaqGGaGaaeiAaiaabMgacaqGSbGaaeiBaiaabccacaqGSbGaaeyzaiaab6gacaqGNbGaaeiAaiaabshacaqGGaWaamWaaeaacaWGTbaacaGLBbGaayzxaaaabaGaamivaiaabccacaqGGaGaaeiiaiaabccacaqGGaGaaeiiaiabg2da9iaabccacaqG0bGaaeyzaiaab2gacaqGWbGaaeyzaiaabkhacaqGHbGaaeiDaiaabwhacaqGYbGaaeyzaiaabccadaWadaqaaiabgclaWkaadoeaaiaawUfacaGLDbaaaaaa@CC70@</annotation>
- </semantics>
 </math>

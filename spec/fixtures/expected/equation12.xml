@@ -1,26 +1,26 @@
 <?xml version="1.0"?>
-<math display="block">
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mrow>
     <msup>
       <mrow>
-        <mn>&#x0028;</mn>
+        <mo stretchy="false">(</mo>
         <mi>a</mi>
         <mo>&#x2212;</mo>
         <mi>b</mi>
-        <mn>&#x0029;</mn>
+        <mo stretchy="false">)</mo>
       </mrow>
       <mrow>
         <mi>c</mi>
       </mrow>
     </msup>
-    <mo>&#x002B;</mo>
+    <mo>+</mo>
     <msup>
       <mrow>
         <mrow>
           <mo>(</mo>
           <mrow>
             <mi>b</mi>
-            <mo>&#x002B;</mo>
+            <mo>+</mo>
             <mi>c</mi>
           </mrow>
           <mo>)</mo>
