@@ -27,7 +27,9 @@
 
     <!-- Non-empty text nodes -->
     <xsl:template match="text()[normalize-space()]">
+      <mtext>
         <xsl:value-of select="."/>
+      </mtext>
     </xsl:template>
 
     <xsl:template match="*" />
