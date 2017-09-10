@@ -25,5 +25,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "equivalent-xml", "~> 0.6"
 
   spec.add_dependency "nokogiri", "~> 1.6"
-  spec.add_dependency "mathtype", "~> 0.0.8"
+  spec.add_dependency "mathtype", "~> 0.1.0"
 end
