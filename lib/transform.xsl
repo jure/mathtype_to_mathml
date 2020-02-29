@@ -45,6 +45,7 @@
     <xsl:include href="xsl/box.xsl" />
     <xsl:include href="xsl/fence.xsl" />
     <xsl:include href="xsl/arrow.xsl"/>
+    <xsl:include href="xsl/sqrt.xsl"/>
     <xsl:include href="xsl/matrix.xsl"/>
     <xsl:include href="xsl/long_embellishment.xsl"/>
     <xsl:include href="xsl/long_division.xsl"/>
