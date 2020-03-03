@@ -3,6 +3,7 @@ require "nokogiri"
 require "mathtype"
 require_relative "mathtype_to_mathml/mover"
 require_relative "mathtype_to_mathml/char_replacer"
+require 'byebug'
 
 module MathTypeToMathML
   class Converter
@@ -23,6 +24,15 @@ module MathTypeToMathML
     def convert
       @mathtype.xpath(".//tmpl[selector='tmINTEG']").each do |ele|
         ele.xpath('.//slot/text()').each do |text|
+          element = Nokogiri::XML::Element.new("mi", @mathtype)
+          t = Nokogiri::XML::Text.new(text.text, @mathtype)
+          element.prepend_child(t)
+          text.replace(element)
+        end
+      end
+
+      @mathtype.xpath('.//text()').each do |text|
+        if text.parent.name == "slot" or text.parent.name == "pile"
           element = Nokogiri::XML::Element.new("mi", @mathtype)
           t = Nokogiri::XML::Text.new(text.text, @mathtype)
           element.prepend_child(t)
