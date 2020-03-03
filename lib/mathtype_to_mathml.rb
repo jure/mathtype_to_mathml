@@ -21,6 +21,14 @@ module MathTypeToMathML
     end
 
     def convert
+      @mathtype.xpath(".//tmpl[selector='tmINTEG']").each do |ele|
+        ele.xpath('.//slot/text()').each do |text|
+          element = Nokogiri::XML::Element.new("mi", @mathtype)
+          t = Nokogiri::XML::Text.new(text.text, @mathtype)
+          element.prepend_child(t)
+          text.replace(element)
+        end
+      end
       out = @xslt.transform(@mathtype)
       # This is a hack, but XML namespaces are such a pain to get
       # right, especially in nokigiri, so... We assume all content is
